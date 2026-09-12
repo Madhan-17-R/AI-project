@@ -50,3 +50,11 @@ backend/sensors.db
 
 # PlatformIO build artifacts
 esp32/.pio/
+
+# Python virtual environment
+.venv/
+backend/.venv/
+
+# Archives
+*.zip
+*.tar.gz
