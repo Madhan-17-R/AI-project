@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 import MarudamLogo from '@/components/brand/MarudamLogo';
@@ -23,16 +23,35 @@ import {
   translateRecommendation,
 } from '@/lib/i18n/translations';
 import { recommendBaselineSchedule, detectWeatherVariability } from '@/lib/baseline/scheduler';
+import {
+  fetchLatestReading,
+  fetchRecentAnomalies,
+  fetchDeviceStatus,
+  subscribeToReadings,
+  subscribeToAnomalies,
+  subscribeToDeviceStatus,
+  type SensorReading as SupabaseSensorReading,
+  type Anomaly as SupabaseAnomaly,
+  type DeviceRow,
+} from '@/lib/supabase/sensors';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 interface SensorData {
-  soil_moisture: number | null;
+  soil_moisture:    number | null;
   soil_temperature: number | null;
-  light_intensity: number | null;
-  air_humidity: number | null;
+  soil_ph:          number | null;
+  soil_ec:          number | null;
+  air_temperature:  number | null;
+  humidity:         number | null;
+  light_lux:        number | null;
+  // Legacy field aliases kept for backward compat with existing dashboard render
+  light_intensity:         number | null;
+  air_humidity:            number | null;
   surrounding_temperature: number | null;
   timestamp: string;
 }
+
+type DataSource = 'supabase' | 'local' | 'none';
 interface FieldBaseline {
   [key: string]: {
     center: number;
@@ -97,6 +116,10 @@ export default function DashboardPage() {
   const [decision,        setDecision]        = useState<DecisionData | null>(null);
   const [deviceStatus,    setDeviceStatus]    = useState<'ONLINE'|'STALE'|'OFFLINE'|'UNKNOWN'>('UNKNOWN');
   const [sensorAge,       setSensorAge]       = useState(0); // seconds since last reading
+  const [dataSource,      setDataSource]      = useState<DataSource>('none');
+  const [cloudDevice,     setCloudDevice]     = useState<DeviceRow | null>(null);
+  const [cloudAnomalies,  setCloudAnomalies]  = useState<SupabaseAnomaly[]>([]);
+  const lastReadingTs = useRef<string | null>(null);
   const t = useMemo(() => getTranslations(language), [language]);
 
   // ─── Clock ─────────────────────────────────────────────────────────────────
@@ -153,28 +176,131 @@ export default function DashboardPage() {
     }
   };
 
-  // ─── Poll backend sensor APIs ──────────────────────────────────────────────
-  const deviceId = farmProfile?.device_id ?? 'FIELD_001';
+  // ─── Data sources ──────────────────────────────────────────────────────────
+  const deviceId = farmProfile?.device_id ?? 'MARUDAM-01';
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
 
+  // Helper: map Supabase SensorReading to local SensorData shape
+  const mapSupabaseReading = useCallback((r: SupabaseSensorReading): SensorData => ({
+    soil_moisture:           r.soil_moisture,
+    soil_temperature:        r.soil_temperature,
+    soil_ph:                 r.soil_ph,
+    soil_ec:                 r.soil_ec,
+    air_temperature:         r.air_temperature,
+    humidity:                r.humidity,
+    light_lux:               r.light_lux,
+    // Legacy aliases for existing rendering code
+    light_intensity:         r.light_lux,
+    air_humidity:            r.humidity,
+    surrounding_temperature: r.air_temperature,
+    timestamp:               r.timestamp,
+  }), []);
+
+  // ── 1. Supabase initial fetch + Realtime subscriptions ────────────────────
+  useEffect(() => {
+    if (!profileLoaded) return;
+
+    // Initial fetch from Supabase
+    const init = async () => {
+      const [reading, anomalies, device] = await Promise.all([
+        fetchLatestReading(deviceId),
+        fetchRecentAnomalies(deviceId, 20),
+        fetchDeviceStatus(deviceId),
+      ]);
+
+      if (reading) {
+        // Only apply if newer than what we have
+        if (!lastReadingTs.current || reading.timestamp > lastReadingTs.current) {
+          lastReadingTs.current = reading.timestamp;
+          setSensorData(mapSupabaseReading(reading));
+          setSensorAge(0);
+          setDataSource('supabase');
+        }
+      }
+      if (anomalies.length > 0) setCloudAnomalies(anomalies);
+      if (device) setCloudDevice(device);
+    };
+    init();
+
+    // Realtime: new sensor reading inserted → update dashboard
+    const unsubReadings = subscribeToReadings(deviceId, (reading) => {
+      if (!lastReadingTs.current || reading.timestamp > lastReadingTs.current) {
+        lastReadingTs.current = reading.timestamp;
+        setSensorData(mapSupabaseReading(reading));
+        setSensorAge(0);
+        setDataSource('supabase');
+      }
+    });
+
+    // Realtime: new anomaly inserted
+    const unsubAnomalies = subscribeToAnomalies(deviceId, (anomaly) => {
+      setCloudAnomalies(prev => [anomaly, ...prev].slice(0, 20));
+    });
+
+    // Realtime: device status changed
+    const unsubDevice = subscribeToDeviceStatus(deviceId, (device) => {
+      setCloudDevice(device);
+    });
+
+    return () => {
+      unsubReadings();
+      unsubAnomalies();
+      unsubDevice();
+    };
+  }, [profileLoaded, deviceId, mapSupabaseReading]);
+
+  // ── 2. Local backend polling (fallback for local dev) ─────────────────────
   const fetchBackend = useCallback(async () => {
-    const base = 'http://localhost:8000';
     try {
       const [sr, br, er, dr, st] = await Promise.allSettled([
-        fetch(`${base}/api/sensors/latest/${deviceId}`),
-        fetch(`${base}/api/baseline/${deviceId}`),
-        fetch(`${base}/api/events/${deviceId}`),
-        fetch(`${base}/api/decision/${deviceId}`),
-        fetch(`${base}/api/status/${deviceId}`),
+        fetch(`${BACKEND_URL}/api/sensors/latest/${deviceId}`),
+        fetch(`${BACKEND_URL}/api/baseline/${deviceId}`),
+        fetch(`${BACKEND_URL}/api/events/${deviceId}`),
+        fetch(`${BACKEND_URL}/api/decision/${deviceId}`),
+        fetch(`${BACKEND_URL}/api/status/${deviceId}`),
       ]);
-      if (sr.status === 'fulfilled' && sr.value.ok) { const d = await sr.value.json(); setSensorData(d); setSensorAge(0); }
-      if (br.status === 'fulfilled' && br.value.ok) { const d = await br.value.json(); if (Object.keys(d).length > 0) setAdaptiveBaseline(d); }
+
+      let localHasData = false;
+      if (sr.status === 'fulfilled' && sr.value.ok) {
+        const d = await sr.value.json();
+        // Only override Supabase data if local data is newer
+        const localTs = d.timestamp as string | null;
+        if (!lastReadingTs.current || (localTs && localTs > lastReadingTs.current)) {
+          lastReadingTs.current = localTs || lastReadingTs.current;
+          // Map legacy field names to new names
+          setSensorData({
+            soil_moisture:           d.soil_moisture ?? null,
+            soil_temperature:        d.soil_temperature ?? null,
+            soil_ph:                 d.soil_ph ?? null,
+            soil_ec:                 d.soil_ec ?? null,
+            air_temperature:         d.air_temperature ?? d.surrounding_temperature ?? null,
+            humidity:                d.humidity ?? d.air_humidity ?? null,
+            light_lux:               d.light_lux ?? d.light_intensity ?? null,
+            light_intensity:         d.light_lux ?? d.light_intensity ?? null,
+            air_humidity:            d.humidity ?? d.air_humidity ?? null,
+            surrounding_temperature: d.air_temperature ?? d.surrounding_temperature ?? null,
+            timestamp:               localTs || new Date().toISOString(),
+          });
+          setSensorAge(0);
+          setDataSource('local');
+          localHasData = true;
+        }
+      }
+      if (br.status === 'fulfilled' && br.value.ok) {
+        const d = await br.value.json();
+        if (Object.keys(d).length > 0) setAdaptiveBaseline(d);
+      }
       if (er.status === 'fulfilled' && er.value.ok) setEvents(await er.value.json());
       if (dr.status === 'fulfilled' && dr.value.ok) setDecision(await dr.value.json());
-      if (st.status === 'fulfilled' && st.value.ok) { const d = await st.value.json(); setDeviceStatus(d.status ?? 'UNKNOWN'); }
-    } catch { /* backend offline */ }
-  }, [deviceId]);
+      if (st.status === 'fulfilled' && st.value.ok) {
+        const d = await st.value.json();
+        setDeviceStatus(d.status ?? 'UNKNOWN');
+      }
+    } catch {
+      // Local backend offline — Supabase Realtime is the primary source
+    }
+  }, [deviceId, BACKEND_URL]);
 
-  // Start backend polling (wrapped to avoid setState-in-effect lint warning)
   useEffect(() => {
     let alive = true;
     const run = () => { if (alive) fetchBackend(); };
@@ -309,6 +435,10 @@ export default function DashboardPage() {
 
   const isEspConnected = !!sensorData && sensorAge < 600; // less than 10 mins old
 
+  // Cloud device status from Supabase (for Vercel where local backend is unavailable)
+  const cloudConnected = cloudDevice?.status === 'CONNECTED';
+  const effectiveDeviceStatus = dataSource === 'local' ? deviceStatus : (cloudDevice?.status ?? 'UNKNOWN');
+
   return (
     <div style={{ minHeight:'100svh', background:'var(--bg-base)', color:'var(--text-primary)', display:'flex', flexDirection:'column', fontFamily:'system-ui, -apple-system, sans-serif' }}>
       
@@ -441,15 +571,17 @@ export default function DashboardPage() {
                 </div>
               ) : (
                 <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))', gap:'1rem' }}>
-                  {(['soil_moisture','soil_temperature','light_intensity','air_humidity','surrounding_temperature'] as const).map(key => {
+                  {(['soil_moisture','soil_temperature','soil_ph','soil_ec','air_temperature','humidity','light_lux'] as const).map(key => {
                     const val = sensorData[key];
                     const stat = sensorStatus(key, val);
                     const r = sensorRange(key);
                     const col = stat === 'below' ? '#60a5fa' : stat === 'above' ? '#f97316' : '#4ade80';
                     const isMoisture = key === 'soil_moisture';
                     const isHeat = key.includes('temperature');
-                    const isLight = key === 'light_intensity';
-                    const isHumid = key === 'air_humidity';
+                    const isLight = key === 'light_lux';
+                    const isHumid = key === 'humidity';
+                    const isPh    = key === 'soil_ph';
+                    const isEc    = key === 'soil_ec';
                     
                     return (
                       <div key={key} onClick={() => setDetailsOpen(true)} style={{ background:'var(--bg-panel)', border:`1px solid var(--border-very-subtle)`, borderRadius:'1.25rem', padding:'1.5rem', cursor:'pointer', position:'relative', overflow:'hidden', transition:'transform 0.2s, background 0.2s', display:'flex', flexDirection:'column' }}>
@@ -464,11 +596,12 @@ export default function DashboardPage() {
                           {isHeat && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>}
                           {isLight && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>}
                           {isHumid && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path><path d="M12 22a8 8 0 0 0 8-8c0-3.5-3.5-7-8-11-4.5 4-8 7.5-8 11a8 8 0 0 0 8 8z" fill={col} fillOpacity="0.2"></path></svg>}
+                          {(isPh || isEc) && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line><line x1="12" y1="8" x2="12" y2="16"></line></svg>}
                         </div>
 
                         <div>
                           <div style={{ display:'flex', alignItems:'baseline', gap:'0.25rem' }}>
-                            <span style={{ fontSize:'2rem', fontWeight:800, color:'var(--text-primary)', lineHeight:1 }}>{val != null ? (isLight ? Math.round(val).toLocaleString() : val.toFixed(1)) : '--'}</span>
+                            <span style={{ fontSize:'2rem', fontWeight:800, color: val == null ? 'var(--text-muted)' : 'var(--text-primary)', lineHeight:1 }}>{val != null ? (isLight ? Math.round(val).toLocaleString() : isPh ? val.toFixed(1) : isEc ? val.toFixed(2) : val.toFixed(1)) : '--'}</span>
                             <span style={{ fontSize:'0.9rem', color:'var(--text-muted)', fontWeight:500 }}>{sensorUnit(key)}</span>
                           </div>
                           
