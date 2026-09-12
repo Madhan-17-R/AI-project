@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+/* ─── Global Base ──────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; min-height: 100%; }
+
+:root {
+  --bg-base: #050c05;
+  --bg-panel: rgba(20, 30, 22, 0.6);
+  --bg-card: rgba(255, 255, 255, 0.02);
+  --bg-input: rgba(0, 0, 0, 0.2);
+  --bg-glass-strong: rgba(0, 0, 0, 0.4);
+  --bg-glass-heavy: rgba(0, 0, 0, 0.5);
+  --bg-header: rgba(5, 12, 5, 0.85);
+
+  --text-primary: #f8f9fa;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.5);
+  
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-very-subtle: rgba(255, 255, 255, 0.05);
+  --border-brand-subtle: rgba(160, 224, 80, 0.15);
+  
+  --brand-primary: #a0e050;
+  --brand-primary-hover: #b4f064;
+
+  --status-normal: #4ade80;
+  --status-watch: #fbbf24;
+  --status-attention: #f87171;
+}
+
+[data-theme='light'] {
+  --bg-base: #f0f4f0;
+  --bg-panel: rgba(255, 255, 255, 0.85);
+  --bg-card: rgba(255, 255, 255, 0.65);
+  --bg-input: rgba(0, 0, 0, 0.05);
+  --bg-glass-strong: rgba(255, 255, 255, 0.8);
+  --bg-glass-heavy: rgba(255, 255, 255, 0.9);
+  --bg-header: rgba(240, 244, 240, 0.85);
+
+  --text-primary: #0a110a;
+  --text-secondary: rgba(0, 0, 0, 0.85);
+  --text-muted: rgba(0, 0, 0, 0.65);
+  
+  --border-subtle: rgba(0, 0, 0, 0.1);
+  --border-very-subtle: rgba(0, 0, 0, 0.05);
+  --border-brand-subtle: rgba(42, 110, 31, 0.2);
+  
+  --brand-primary: #2a6e1f;
+  --brand-primary-hover: #3b8c2d;
+
+  --status-normal: #16a34a;
+  --status-watch: #d97706;
+  --status-attention: #dc2626;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* ─── Keyframes ────────────────────────────────────────────────────────── */
+
+/* Sun ray / atmospheric light variation */
+@keyframes ray-pulse {
+  0%, 100% { opacity: 0.18; }
+  45%       { opacity: 0.34; }
+  55%       { opacity: 0.30; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .5; }
+}
+
+/* Water / flooded rice field shimmer */
+@keyframes water-shimmer {
+  0%, 100% { opacity: 0.10; transform: translateX(0)   scaleX(1); }
+  40%       { opacity: 0.22; transform: translateX(6px) scaleX(1.01); }
+  80%       { opacity: 0.15; transform: translateX(-4px) scaleX(0.99); }
+}
+
+/* Horizon atmospheric mist gentle breathing */
+@keyframes mist-drift {
+  0%, 100% { opacity: 0.55; transform: translateX(0); }
+  50%       { opacity: 0.85; transform: translateX(-18px); }
+}
+
+/* Atmospheric dust/pollen particles */
+@keyframes atm-float {
+  0%   { opacity: 0;    transform: translateY(0)     translateX(0);   }
+  12%  { opacity: 0.55; }
+  88%  { opacity: 0.20; }
+  100% { opacity: 0;    transform: translateY(-75px) translateX(22px); }
+}
+
+/* Slow oscillating cloud overlay — A */
+@keyframes cloud-layer-a {
+  0%   { transform: translateX(0%)  translateY(0%);  }
+  50%  { transform: translateX(7%)  translateY(-1%); }
+  100% { transform: translateX(0%)  translateY(0%);  }
+}
+
+/* Slow oscillating cloud overlay — B (counter-direction) */
+@keyframes cloud-layer-b {
+  0%   { transform: translateX(0%)  translateY(0%); }
+  50%  { transform: translateX(-5%) translateY(1%); }
+  100% { transform: translateX(0%)  translateY(0%); }
+}
+
+/* Login overlay in */
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ─── Cloud drift overlay elements ─────────────────────────────────────── */
+/* These are translucent gradient blobs that drift over the painted sky,
+   giving a sense of slow cloud movement without blocking the painting.  */
+
+.cloud-overlay {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.cloud-overlay-a {
+  top: 0;
+  left: -5%;
+  width: 58%;
+  height: 42%;
+  background: radial-gradient(
+    ellipse at 35% 45%,
+    rgba(185, 200, 215, 0.10) 0%,
+    rgba(155, 175, 195, 0.06) 45%,
+    transparent 72%
+  );
+  filter: blur(10px);
+  animation: cloud-layer-a 100s ease-in-out infinite;
+}
+
+.cloud-overlay-b {
+  top: 3%;
+  right: -8%;
+  width: 55%;
+  height: 38%;
+  background: radial-gradient(
+    ellipse at 62% 38%,
+    rgba(210, 220, 230, 0.08) 0%,
+    rgba(165, 185, 205, 0.04) 48%,
+    transparent 75%
+  );
+  filter: blur(12px);
+  animation: cloud-layer-b 130s ease-in-out infinite -40s;
+}
+
+/* ─── Navigation ───────────────────────────────────────────────────────── */
+.farm-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 2.5rem;
+  transition: background 0.55s ease, backdrop-filter 0.55s ease;
+  /* Subtle top gradient so nav doesn't float on bright sky */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.35) 0%,
+    transparent 100%
+  );
+}
+
+.farm-nav--scrolled {
+  background: rgba(5, 12, 5, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ─── Form / focus ──────────────────────────────────────────────────────── */
+input::placeholder { color: rgba(255, 255, 255, 0.28); }
+
+:focus-visible {
+  outline: 2px solid rgba(160, 224, 80, 0.7);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Accessibility: Reduced Motion ────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.3ms !important;
+  }
+}
