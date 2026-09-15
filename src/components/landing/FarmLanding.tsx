@@ -1,4 +1,5 @@
 'use client';
+import { getTranslations } from "@/lib/i18n/translations";
 
 import Link from 'next/link';
 import { useState, useEffect, useRef, useCallback } from 'react';
@@ -21,6 +22,21 @@ import { useRouter } from 'next/navigation';
     12. Login transition overlay
 ───────────────────────────────────────────────────────────────────────── */
 export default function FarmLanding() {
+  const [language, setLanguage] = useState<'English'|'Hindi'|'Bengali'|'Telugu'|'Marathi'|'Tamil'|'Gujarati'|'Urdu'|'Kannada'|'Odia'|'Malayalam'|'Punjabi'|'Assamese'|'Maithili'|'Sanskrit'|'Konkani'|'Manipuri'|'Kashmiri'|'Nepali'|'Sindhi'|'Dogri'|'Santali'>('English');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('marudam-lang');
+      if (stored) setLanguage(stored as any);
+    }
+  }, []);
+
+  useEffect(() => {
+    const rtlLangs = ['Urdu', 'Kashmiri', 'Sindhi'];
+    document.documentElement.dir = rtlLangs.includes(language) ? 'rtl' : 'ltr';
+  }, [language]);
+
+  const t = getTranslations(language);
   const bgRef    = useRef<HTMLDivElement>(null);
   const lightRef = useRef<HTMLDivElement>(null);
   const fgRef    = useRef<HTMLDivElement>(null);
@@ -89,12 +105,19 @@ export default function FarmLanding() {
     };
   }, []);
 
-  /* Cinematic login transition */
+  /* Cinematic login & register transitions */
   const handleLogin = useCallback(() => {
     if (transitioning) return;
     setTransitioning(true);
     setTimeout(() => setOverlayOn(true), 60);
     setTimeout(() => router.push('/login'), 980);
+  }, [transitioning, router]);
+
+  const handleRegister = useCallback(() => {
+    if (transitioning) return;
+    setTransitioning(true);
+    setTimeout(() => setOverlayOn(true), 60);
+    setTimeout(() => router.push('/register'), 980);
   }, [transitioning, router]);
 
   /* ── Inline hover helpers ─────────────────────────────────────────── */
@@ -349,25 +372,40 @@ export default function FarmLanding() {
           className="nav-links"
           style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '2.5rem', listStyle: 'none', margin: 0, padding: 0 }}
         >
-          {(['Home', 'About', 'Features'] as const).map((item) => (
-            <li key={item}>
-              <a
-                href={`#${item.toLowerCase()}`}
-                style={{
-                  color: 'rgba(255,255,255,0.84)',
-                  textDecoration: 'none',
-                  fontSize: '0.9rem',
-                  fontWeight: 500,
-                  transition: 'color 0.2s',
-                  textShadow: '0 1px 8px rgba(0,0,0,0.55)',
-                }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = 'white')}
-                onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.84)')}
-              >
-                {item}
-              </a>
-            </li>
-          ))}
+          <li key="Home">
+            <Link
+              href="/"
+              style={{
+                color: 'rgba(255,255,255,0.84)',
+                textDecoration: 'none',
+                fontSize: '0.9rem',
+                fontWeight: 500,
+                transition: 'color 0.2s',
+                textShadow: '0 1px 8px rgba(0,0,0,0.55)',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = 'white')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.84)')}
+            >
+              Home
+            </Link>
+          </li>
+          <li key="About">
+            <Link
+              href="/about"
+              style={{
+                color: 'rgba(255,255,255,0.84)',
+                textDecoration: 'none',
+                fontSize: '0.9rem',
+                fontWeight: 500,
+                transition: 'color 0.2s',
+                textShadow: '0 1px 8px rgba(0,0,0,0.55)',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = 'white')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.84)')}
+            >
+              About
+            </Link>
+          </li>
         </ul>
       </nav>
 
@@ -433,8 +471,8 @@ export default function FarmLanding() {
             letterSpacing: '-0.025em',
             textShadow:    '0 2px 22px rgba(0,0,0,0.75), 0 0 55px rgba(0,0,0,0.40)',
           }}>
-            Know Your Field.<br />
-            <span style={{ color: '#a8e060' }}>Grow with Confidence.</span>
+            {t.landing.titlePart1}<br />
+            <span style={{ color: '#a8e060' }}>{t.landing.titlePart2}</span>
           </h1>
 
           {/* Subtext */}
@@ -446,14 +484,14 @@ export default function FarmLanding() {
             textShadow: '0 1px 14px rgba(0,0,0,0.80)',
             maxWidth:   '440px',
           }}>
-            Marudam learns what is normal for your field. It reads your sensors every day, builds your field’s baseline, and tells you clearly when something needs your attention.
+            {t.landing.subtitle}
           </p>
 
           {/* CTAs */}
           <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-            <a
-              id="cta-explore"
-              href="#features"
+            <button
+              id="cta-register"
+              onClick={handleRegister}
               style={{
                 background:     'linear-gradient(135deg, #4a8432 0%, #68a42a 100%)',
                 color:          'white',
@@ -461,7 +499,8 @@ export default function FarmLanding() {
                 borderRadius:   '9999px',
                 fontWeight:     700,
                 fontSize:       '0.92rem',
-                textDecoration: 'none',
+                border:         'none',
+                cursor:         'pointer',
                 boxShadow:
                   '0 4px 26px rgba(58,115,28,0.48), 0 1px 0 rgba(255,255,255,0.10) inset',
                 transition: 'transform 0.22s, box-shadow 0.22s',
@@ -480,7 +519,7 @@ export default function FarmLanding() {
               }}
             >
               <svg
-                width="13" height="13"
+                width="14" height="14"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -489,10 +528,13 @@ export default function FarmLanding() {
                 strokeLinejoin="round"
                 aria-hidden="true"
               >
-                <path d="M5 12h14M12 5l7 7-7 7"/>
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="8.5" cy="7" r="4"/>
+                <line x1="20" y1="8" x2="20" y2="14"/>
+                <line x1="23" y1="11" x2="17" y2="11"/>
               </svg>
-              Explore Platform
-            </a>
+              Register
+            </button>
 
             <button
               id="cta-login"
@@ -509,11 +551,11 @@ export default function FarmLanding() {
                 border:        '1.5px solid rgba(255,255,255,0.28)',
                 cursor:        'pointer',
                 transition:    'background 0.2s, border-color 0.2s',
-                backdropFilter: 'blur(8px)',
-              }}
-            >
-              Login →
-            </button>
+              backdropFilter: 'blur(8px)',
+            }}
+          >
+            {t.login.signIn} →
+          </button>
           </div>
 
           {/* Trust line */}
@@ -527,11 +569,11 @@ export default function FarmLanding() {
             fontSize:   '0.72rem',
             textShadow: '0 1px 8px rgba(0,0,0,0.8)',
           }}>
-            <span>🌾 Built for Indian farmers</span>
+            <span>🌾 {t.landing.builtForIndianFarmers}</span>
             <span style={{ opacity: 0.38 }}>·</span>
-            <span>🤖 Real-time AI insights</span>
+            <span>🤖 {t.landing.realTimeAI}</span>
             <span style={{ opacity: 0.38 }}>·</span>
-            <span>💧 Smart irrigation</span>
+            <span>💧 {t.landing.smartIrrigation}</span>
           </div>
         </div>
       </div>

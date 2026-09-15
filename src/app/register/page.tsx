@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 import MarudamLogo from '@/components/brand/MarudamLogo';
@@ -8,12 +8,30 @@ import MarudamSelect from '@/components/ui/MarudamSelect';
 import { LOCATIONS, CROPS, STATES, type Language } from '@/lib/data/db';
 import { getTranslations } from '@/lib/i18n/translations';
 
-const LANGUAGES: Language[] = ['English', 'Hindi', 'Tamil', 'Telugu', 'Kannada'];
+const LANGUAGES: Language[] = [
+  'English', 'Hindi', 'Bengali', 'Telugu', 'Marathi', 'Tamil', 'Gujarati', 'Urdu', 'Kannada', 'Odia', 'Malayalam', 'Punjabi', 'Assamese', 'Maithili', 'Sanskrit', 'Konkani', 'Manipuri', 'Kashmiri', 'Nepali', 'Sindhi', 'Dogri', 'Santali'
+];
 
 export default function RegisterPage() {
   const router = useRouter();
   const [step, setStep] = useState(1);
   const [language, setLanguage] = useState<Language>('English');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('marudam-lang');
+      if (stored) setLanguage(stored as Language);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('marudam-lang', language);
+    }
+    const rtlLangs = ['Urdu', 'Kashmiri', 'Sindhi'];
+    document.documentElement.dir = rtlLangs.includes(language) ? 'rtl' : 'ltr';
+  }, [language]);
+
   const t = useMemo(() => getTranslations(language), [language]);
 
   // Step 1: Account

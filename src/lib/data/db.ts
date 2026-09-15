@@ -5,7 +5,8 @@
 // Localized names are resolved via helper functions using the farmer's language.
 // =============================================================================
 
-export type Language = 'English' | 'Hindi' | 'Tamil' | 'Telugu' | 'Kannada';
+import type { Language } from '../i18n/translations';
+export type { Language };
 
 // ─────────────────────────────────────────────────────────────────────────────
 // LOCATIONS

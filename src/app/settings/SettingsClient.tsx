@@ -25,7 +25,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
 
   const checkSensorAge = useCallback(async (deviceId: string) => {
     try {
-      const res = await fetch(`http://localhost:8000/api/v1/sensors/latest/${deviceId}`);
+      const res = await fetch(`http://localhost:8000/api/sensors/latest/${deviceId}`);
       if (!res.ok) return;
       const data = await res.json();
       if (data && data.timestamp) {
@@ -103,7 +103,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
   };
 
   if (loading) {
-    return <div style={{minHeight:'100svh', background:'var(--bg-base)', display:'flex', alignItems:'center', justifyContent:'center', color:'var(--text-muted)'}}>Loading...</div>;
+    return <div style={{minHeight:'100svh', background:'var(--bg-base)', display:'flex', alignItems:'center', justifyContent:'center', color:'var(--text-muted)'}}>{t.common.loading}</div>;
   }
 
   const isEspConnected = sensorAge !== null && sensorAge < 600;
@@ -120,7 +120,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
         <section style={{ background:'var(--bg-panel)', border:'1px solid var(--border-very-subtle)', borderRadius:'1rem', padding:'1.5rem' }}>
           <h2 style={{ fontSize:'1.1rem', fontWeight:600, color:'var(--brand-primary)', margin:'0 0 1rem 0' }}>Appearance</h2>
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'1rem', background:'var(--bg-input)', borderRadius:'0.5rem' }}>
-            <span style={{ color:'var(--text-secondary)' }}>Light Theme</span>
+            <span style={{ color:'var(--text-secondary)' }}>Light theme</span>
             <label style={{ position:'relative', display:'inline-block', width:'44px', height:'24px' }}>
               <input 
                 type="checkbox" 
@@ -190,7 +190,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
               <input type="checkbox" defaultChecked style={{ width:18, height:18, accentColor:'var(--brand-primary)' }} />
               <span style={{ fontSize:'0.95rem' }}>{t.settings.deviceAlerts}</span>
             </label>
-            <p style={{ margin:0, fontSize:'0.8rem', color:'var(--text-muted)' }}>(These are local browser preferences)</p>
+            <p style={{ margin:0, fontSize:'0.8rem', color:'var(--text-muted)' }}>Local browser preferences</p>
           </div>
         </section>
 
@@ -200,7 +200,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
           {farmData ? (
             <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'1rem' }}>
               <div>
-                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>Crop</span>
+                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>{t.dashboard.crop}</span>
                 <span style={{ fontWeight:500 }}>{getCropName(farmData.crop_id, language)}</span>
               </div>
               <div>
@@ -208,11 +208,11 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
                 <span style={{ fontWeight:500 }}>{farmData.sowing_date || t.settings.notAvailable}</span>
               </div>
               <div>
-                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>State</span>
+                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>{t.dashboard.state}</span>
                 <span style={{ fontWeight:500 }}>{farmData.state || t.settings.notAvailable}</span>
               </div>
               <div>
-                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>District</span>
+                <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)' }}>{t.dashboard.district}</span>
                 <span style={{ fontWeight:500 }}>{farmData.district || t.settings.notAvailable}</span>
               </div>
             </div>
@@ -230,11 +230,11 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'1rem' }}>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)', marginBottom:'0.25rem' }}>{t.settings.learningStatus}</span>
-              <span style={{ fontWeight:600, color:'#4ade80' }}>Active</span>
+              <span style={{ fontWeight:600, color:'#4ade80' }}>{t.baseline.learning}</span>
             </div>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <span style={{ display:'block', fontSize:'0.8rem', color:'var(--text-muted)', marginBottom:'0.25rem' }}>{t.settings.reviewSchedule}</span>
-              <span style={{ fontWeight:600 }}>Every 7 Days</span>
+              <span style={{ fontWeight:600 }}>Every 7 days</span>
             </div>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
           <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', padding:'1rem', background:'var(--bg-input)', borderRadius:'0.5rem' }}>
             <span style={{ color:'var(--text-primary)' }}>{t.settings.configStatus}</span>
             {hasAi ? (
-              <span style={{ color:'#4ade80', fontWeight:600 }}>Ready</span>
+              <span style={{ color:'#4ade80', fontWeight:600 }}>{t.onboarding.setupComplete}</span>
             ) : (
               <span style={{ color:'#f87171', fontWeight:600 }}>{t.settings.aiNotConfigured}</span>
             )}
@@ -272,7 +272,7 @@ export default function SettingsClient({ hasAi }: { hasAi: boolean }) {
           <div style={{ display:'flex', flexDirection:'column', gap:'0.5rem' }}>
             <span style={{ color:'var(--text-primary)' }}><strong>Marudam</strong></span>
             <span style={{ color:'var(--text-secondary)', fontSize:'0.9rem' }}>{t.settings.version}: 1.0.0</span>
-            <span style={{ color:'var(--text-muted)', fontSize:'0.9rem', marginTop:'0.5rem' }}>A premium, farmer-first agricultural intelligence platform powered by adaptive AI and live field sensors.</span>
+            <span style={{ color:'var(--text-muted)', fontSize:'0.9rem', marginTop:'0.5rem' }}>A premium agricultural intelligence platform.</span>
           </div>
         </section>
 

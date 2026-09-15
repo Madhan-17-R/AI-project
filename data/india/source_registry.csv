@@ -1,0 +1,7 @@
+source_id,source_name,organization,source_url,source_year,role
+LGD,Local Government Directory - Districts,Government of India,https://data.gov.in/resource/local-government-directory-lgd-districts,2026,authoritative current state/district master
+C16,"C-16 Population by Mother Tongue, India - 2011","Office of Registrar General & Census Commissioner, India",https://censusindia.gov.in/nada/index.php/catalog/10191,2011,language/mother tongue; uploaded file is state-granularity in practice
+CGWB2025,"Dynamic Ground Water Resources of India, 2025","Central Ground Water Board, Ministry of Jal Shakti",https://cgwb.gov.in/cgwbpnm/publication-detail/1741,2025,"district groundwater resources, extraction, future availability"
+CROP,"District-wise, season-wise crop production statistics from 1997","Ministry of Agriculture & Farmers Welfare, Directorate of Economics & Statistics",https://www.data.gov.in/resource/district-wise-season-wise-crop-production-statistics-1997,1997 onward; resource updated 2024,future district crop table
+LUS,Land Use Statistics (LUS),"Ministry of Agriculture & Farmers Welfare, Directorate of Economics & Statistics",https://www.data.gov.in/catalog/land-use-statistics-lus,latest edition 2023-24,future irrigation/source table
+MI7,7th Minor Irrigation Census,Ministry of Jal Shakti,https://mowr.nic.in/irrigationcensus/,reference 2023-24; published 2026,future irrigation methods/source detail

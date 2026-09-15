@@ -1,26 +1,30 @@
 # MARUDAM Backend — Python Dependencies
 # Install with: pip install -r requirements.txt
 
-# ── Web framework ──────────────────────────────────────────────────────────────
-fastapi==0.110.0
+# ─── Web framework ──────────────────────────────────────────────────────────────
+fastapi>=0.112.0
 uvicorn[standard]==0.28.0
 
 # ── Data validation ────────────────────────────────────────────────────────────
-pydantic==2.6.3
+pydantic>=2.6.3,<3.0.0
 pydantic-settings==2.2.1
 
 # ── Serial / USB communication ─────────────────────────────────────────────────
 pyserial==3.5
 
-# ── Supabase cloud database ────────────────────────────────────────────────────
+# ─── Supabase cloud database ──────────────────────────────────────────────────
 supabase==2.31.0
 
-# ── Environment variables ──────────────────────────────────────────────────────
+# ─── Environment variables ────────────────────────────────────────────────────
 python-dotenv==1.0.1
 
-# ── Legacy SQLite support (kept for compatibility with legacy/main.py) ─────────
-SQLAlchemy==2.0.28
+# ─── AI Provider ──────────────────────────────────────────────────────────────
+google-genai==2.23.0
+
+# ─── Legacy SQLite support (kept for compatibility with legacy/main.py) ───────
+SQLAlchemy>=2.0.30
 
 # ── Testing ────────────────────────────────────────────────────────────────────
 pytest==8.1.1
 pytest-asyncio==0.23.6
+httpx<0.28.0

@@ -1,12 +1,13 @@
-import requests
-import time
+import pytest
+from fastapi.testclient import TestClient
+from main import app
 
-BASE_URL = "http://localhost:8000/api"
+client = TestClient(app)
 DEVICE = "FIELD_001"
 
 def init_baseline():
     print("Seeding Initial Regional Baseline...")
-    res = requests.post(f"{BASE_URL}/baseline/init/{DEVICE}", json={
+    res = client.post(f"/api/baseline/init/{DEVICE}", json={
         "soil_moisture_min": 35.0,
         "soil_moisture_max": 60.0,
         "optimal_temp_min": 22.0,
@@ -23,11 +24,11 @@ def send_reading(moisture):
         "air_humidity": 60.0,
         "surrounding_temperature": 30.0
     }
-    requests.post(f"{BASE_URL}/sensors/readings", json=payload)
+    client.post("/api/sensors/readings", json=payload)
     
 def print_status():
-    b_res = requests.get(f"{BASE_URL}/baseline/{DEVICE}")
-    e_res = requests.get(f"{BASE_URL}/events/{DEVICE}")
+    b_res = client.get(f"/api/baseline/{DEVICE}")
+    e_res = client.get(f"/api/events/{DEVICE}")
     
     moist_b = b_res.json().get("soil_moisture", {})
     events = e_res.json()
@@ -42,23 +43,24 @@ def print_status():
     print("-" * 50)
 
 
-print("=== PHASE 4 DETERMINISTIC TEST ===")
-init_baseline()
-
-print("\n--- PHASE 1: NORMAL LEARNING ---")
-for val in [42, 43, 44, 45, 44, 43, 42]:
-    print(f"Sending: {val}")
-    send_reading(val)
-    print_status()
-
-print("\n--- PHASE 2: ABNORMAL DROPS (EVENT CREATION & PERSISTENCE) ---")
-for val in [28, 27, 26, 27, 25]:
-    print(f"Sending: {val}")
-    send_reading(val)
-    print_status()
-
-print("\n--- PHASE 3: RECOVERY (EVENT RESOLUTION) ---")
-for val in [34, 40, 45]:
-    print(f"Sending: {val}")
-    send_reading(val)
-    print_status()
+def test_phase4_execution():
+    print("=== PHASE 4 DETERMINISTIC TEST ===")
+    init_baseline()
+    
+    print("\n--- PHASE 1: NORMAL LEARNING ---")
+    for val in [42, 43, 44, 45, 44, 43, 42]:
+        print(f"Sending: {val}")
+        send_reading(val)
+        print_status()
+    
+    print("\n--- PHASE 2: ABNORMAL DROPS (EVENT CREATION & PERSISTENCE) ---")
+    for val in [28, 27, 26, 27, 25]:
+        print(f"Sending: {val}")
+        send_reading(val)
+        print_status()
+    
+    print("\n--- PHASE 3: RECOVERY (EVENT RESOLUTION) ---")
+    for val in [34, 40, 45]:
+        print(f"Sending: {val}")
+        send_reading(val)
+        print_status()

@@ -1,0 +1,786 @@
+state_code,state,district_code,district,major_language,mother_tongue,source_id,source_year,source_url,data_granularity,data_status
+32,Kerala,554,Alappuzha,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,121,Ambedkar Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,27,Amritsar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,672,Arvalli,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,611,Arwal,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,189,Aurangabad,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,125,Bahraich,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,646,Balod,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,127,Balrampur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,649,Balrampur-Ramanujganj,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,623,Bandipora,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,470,Beed,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,650,Bemetara,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,525,Bengaluru Urban,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,179,Bhadohi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,471,Bhandara,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,395,Bhind,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,636,Bijapur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,676,Botad,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,47,Chamoli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,135,Chandauli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,253,Chandel,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,473,Chandrapur,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,398,Chhatarpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,668,Chhotaudepur,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,445,Dahod,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,310,Dakshin Dinajpur,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,400,Damoh,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,444,Dangs,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,309,Darjeeling,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,535,Davangere,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,269,Dhalai,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,352,Dhenkanal,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,404,Dindori,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,769,Dudu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,657,East Jaintia Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,748,Eluru,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,573,Erode,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,651,Fazilka,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,31,Ferozepur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,446,Gandhinagar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,328,Garhwa,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,645,Gariyaband,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,196,Gaya,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,654,Gomati,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,331,Gumla,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,17,Hamirpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,686,Hanumakonda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,408,Harda,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,50,Haridwar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,539,Hassan,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,355,Jagatsinghapur,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,102,Jaipur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,104,Jalore,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,314,Jalpaiguri,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,687,Jayashankar Bhupalapally,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,105,Jhalawar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,153,Jhansi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,357,Jharsuguda,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,382,Kabeerdham,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,702,Kalimpong,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,156,Kanpur Dehat,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,108,Karauli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,508,Karimnagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,201,Katihar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,360,Kendrapara,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,414,Khargone (West Nimar),HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,450,Kheda,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,159,Kheri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,652,Khowai,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,606,Khunti,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,620,Kishtwar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,263,Kolasib,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,315,Kolkata,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,559,Kollam,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,109,Kota,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,160,Kushinagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+31,Lakshadweep,553,Lakshadweep District,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,161,Lalitpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,335,Latehar,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,234,Lohit,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,615,Longleng,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,206,Madhubani,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,578,Madurai,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,69,Mahendragarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,669,Mahisagar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,784,Maihar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,166,Mainpuri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,706,Majuli,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,562,Malappuram,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,316,Malda,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,364,Malkangiri,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,684,Mancherial,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,168,Mau,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,247,Mon,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,720,Mulugu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,207,Munger,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,545,Mysuru,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,579,Nagapattinam,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,484,Nagpur,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,51,Nainital,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,409,Narmadapuram,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,487,Nashik,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,453,Navsari,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,714,Noney,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,81,North East,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,270,North Tripura,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,749,Ntr,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,563,Palakkad,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,338,Palamu,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,665,Palghar,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,70,Panchkula,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,71,Panipat,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,743,Parvathipuram Manyam,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,662,Pathankot,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,53,Pithoragarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,213,Purbi Champaran,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,369,Puri,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,421,Raisen,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,518,Ranga Reddy,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,627,Reasi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,425,Sagar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,217,Samastipur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,43,Sangrur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,608,S.A.S Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,40,Shahid Bhagat Singh Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,182,Siddharthnagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,114,Sikar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,495,Sindhudurg,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,115,Sirohi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,74,Sirsa,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,585,Sivaganga,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,184,Sonbhadra,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,372,Sonepur,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,304,South 24 Parganas,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+30,Goa,552,South Goa,KONKANI,Konkani,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,696,Suryapet,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,716,Tengnoupal,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,588,Theni,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,590,Thiruvarur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,434,Tikamgarh,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,655,Unakoti,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,241,Upper Subansiri,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,187,Varanasi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,597,Virudhunagar,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,498,Wardha,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,279,West Khasi Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,272,West Tripura,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,504,Y.S.R.,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,667,Agar-Malwa,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,118,Agra,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,86,Ajmer,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,664,Alipurduar,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,45,Almora,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,58,Ambala,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,468,Amravati,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,439,Amreli,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,1,Anantnag,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,753,Annamayya,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,616,Baksa,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,346,Baleshwar,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,126,Ballia,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,644,Balodabazar-Bhatapara,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,128,Banda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,190,Banka,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,305,Bankura,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,3,Baramulla,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,130,Bareilly,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,393,Barwani,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,28,Bathinda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,191,Begusarai,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,527,Belagavi,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,192,Bhagalpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,375,Bilaspur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,252,Bishnupur,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,705,Biswanath,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,133,Budaun,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,134,Bulandshahr,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,94,Bundi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,282,Cachar,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,531,Chamarajanagara,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,48,Champawat,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,708,Charaideo,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,568,Chennai,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,612,Chirang,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,569,Coimbatore,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,401,Datia,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,325,Dhanbad,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,571,Dharmapuri,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,536,Dharwad,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,98,Dholpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,286,Dibrugarh,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,378,Durg,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,273,East Garo Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,29,Faridkot,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,30,Fatehgarh Sahib,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,354,Ganjam,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,144,Gautam Buddha Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,146,Ghazipur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,330,Godda,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,62,Gurugram,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,661,Hapur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,163,Hathras,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,540,Haveri,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,63,Hisar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,726,Hnahthial,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,507,Hyderabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,151,Jalaun,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,479,Jalna,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,447,Jamnagar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,380,Jashpur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,412,Jhabua,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,65,Jind,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,713,Jiribam,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,107,Jodhpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,778,Jodhpur (Gramin),UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,290,Jorhat,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,449,Kachchh,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,746,Kakinada,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,358,Kalahandi,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,729,Kallakurichi,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,685,Kamareddy,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,618,Kamrup Metro,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,557,Kannur,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,157,Kanpur Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,35,Kapurthala,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+37,Ladakh,6,Kargil,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,576,Karur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,7,Kathua,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,770,Khairthal-Tijara,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,405,Khandwa (East Nimar),HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,542,Kolar,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,699,Kumuram Bheem Asifabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,264,Lawngtlai,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,336,Lohardaga,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,235,Lower Dibang Valley,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,719,Lower Siang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,165,Mahoba,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,415,Mandla,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,735,Mayiladuthurai,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,513,Medak,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,170,Mirzapur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,246,Mokokchung,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,171,Moradabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,673,Morbi,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,482,Mumbai,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,483,Mumbai Suburban,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,694,Nagarkurnool,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,209,Nalanda,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,514,Nalgonda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,210,Nawada,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,80,North,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,82,North West,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,237,Papum Pare,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,564,Pathanamthitta,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,456,Porbandar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,120,Prayagraj,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,175,Rae Bareli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,546,Raichur,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,683,Rajanna Sircilla,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,621,Ramban,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,423,Ratlam,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,72,Rewari,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,276,Ri Bhoi,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,73,Rohtak,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,624,Samba,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,371,Sambalpur,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,493,Sangli,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,427,Sehore,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,257,Senapati,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,780,Shahpura,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,219,Sheikhpura,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,679,Siang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,692,Siddipet,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,24,Sirmaur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,300,Sivasagar,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,301,Sonitpur,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,271,South Tripura,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,185,Sultanpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,373,Sundargarh,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,459,Surat,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,460,Surendranagar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,594,Thoothukkudi,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,566,Thrissur,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,752,Tirupati,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,249,Tuensang,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,56,Udam Singh Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,14,Udhampur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,435,Ujjain,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,186,Unnao,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,311,Uttar Dinajpur,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,595,Vellore,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,693,Wanaparthy,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,523,West Godavari,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,242,West Kameng,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,76,Yamunanagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,500,Yavatmal,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,466,Ahmednagar,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,745,Alluri Sitharama Raju,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,154,Amroha,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,744,Anakapalli,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,628,Anjaw,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,776,Anupgarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,122,Auraiya,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,140,Ayodhya,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,739,Bajali,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,345,Balangir,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,129,Bara Banki,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,690,Bhadradri Kothagudem,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,91,Bharatpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,193,Bhojpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,93,Bikaner,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,307,Birbhum,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,701,Charki Dadri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,630,Chikkaballapura,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,503,Chittoor,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,376,Dakshin Bastar Dantewada,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,283,Darrang,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,49,Dehradun,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,351,Deogarh,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,284,Dhemaji,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,285,Dhubri,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,230,Dibang Valley,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,768,Didwana-Kuchaman,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,244,Dimapur,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,572,Dindigul,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+38,The Dadra And Nagar Haveli And Daman And Diu,464,Diu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,4,Doda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,99,Dungarpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,232,East Siang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,555,Ernakulam,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,138,Etah,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,141,Farrukhabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,61,Fatehabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,142,Fatehpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,537,Gadag,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,771,Gangapurcity,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,225,Gangtok,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,145,Ghaziabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,147,Gonda,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,197,Gopalganj,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,32,Gurdaspur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,407,Gwalior,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,289,Hailakandi,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,101,Hanumangarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,150,Hardoi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,332,Hazaribagh,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,477,Hingoli,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,681,Jagitial,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,356,Jajapur,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,333,Jamtara,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,198,Jamui,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,379,Janjgir-Champa,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,199,Jehanabad,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,703,Jhargram,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,200,Kaimur (Bhabua),HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,574,Kancheepuram,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,359,Kandhamal,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,18,Kangra,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,155,Kannauj,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,67,Karnal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,633,Kasganj,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,413,Katni,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,202,Khagaria,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,19,Kinnaur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,614,Kiphire,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,203,Kishanganj,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,334,Koderma,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,543,Koppal,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,782,Kotputli-Behror,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,560,Kottayam,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,561,Kozhikode,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,510,Krishna,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,622,Kulgam,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,8,Kupwara,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,511,Kurnool,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,204,Lakhisarai,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,481,Latur,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,265,Lunglei,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,688,Mahabubabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,451,Mahesana,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,164,Mahrajganj,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,266,Mamit,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,22,Mandi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,760,Manendragarh-Chirmiri-Bharatpur(M C B),HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,365,Mayurbhanj,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,700,Medchal Malkajgiri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,417,Morena,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,319,Murshidabad,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,366,Nabarangpur,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,320,Nadia,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,485,Nanded,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,486,Nandurbar,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,721,Narayanpet,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,418,Narsimhapur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,419,Neemuch,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+35,Andaman And Nicobar Islands,603,Nicobars,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,680,Nirmal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,722,Niwari,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,516,Nizamabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,736,Noklak,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+30,Goa,551,North Goa,KONKANI,Konkani,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,723,Pakke Kessang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,337,Pakur,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,785,Pandhurna,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,489,Parbhani,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,704,Paschim Bardhaman,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,318,Paschim Medinipur,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,41,Patiala,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,212,Patna,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,682,Peddapalli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,10,Poonch,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,174,Pratapgarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+34,Puducherry,600,Puducherry,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,11,Pulwama,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,490,Pune,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,491,Raigad,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,386,Raigarh,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,387,Raipur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,422,Rajgarh,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,12,Rajouri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,54,Rudra Prayag,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,458,Sabar Kantha,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,177,Saharanpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,727,Saitual,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,584,Salem,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,777,Salumbar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,659,Sambhal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,691,Sangareddy,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,218,Saran,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,763,Sarangarh-Bilaigarh,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,426,Satna,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,671,Shahdara,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,765,Shamator,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,660,Shamli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,23,Shimla,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,547,Shivamogga,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,725,Shi Yomi,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,267,Siaha,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,221,Sitamarhi,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,75,Sonipat,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+35,Andaman And Nicobar Islands,602,South Andamans,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,277,South Garo Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,658,South West Khasi Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,39,Sri Muktsar Sahib,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,13,Srinagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,515,Sri Potti Sriramulu Nellore,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,754,Sri Sathya Sai,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,641,Tapi,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,589,Thiruvallur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,259,Thoubal,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,592,Tirunelveli,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,757,Tseminyu,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,548,Tumakuru,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,436,Umaria,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,461,Vadodara,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,224,Vaishali,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,462,Valsad,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,596,Viluppuram,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,520,Visakhapatnam,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,521,Vizianagaram,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,85,West,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,440,Anand,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,502,Ananthapuramu,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,344,Anugul,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,390,Anuppur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,188,Araria,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,610,Ariyalur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,391,Ashoknagar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,124,Baghpat,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,392,Balaghat,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,775,Balotra,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,441,Banas Kantha,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,88,Banswara,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,89,Baran,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,347,Bargarh,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,131,Basti,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,774,Beawar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,526,Bengaluru Rural,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,442,Bharuch,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,396,Bhopal,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,349,Boudh,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,472,Buldhana,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,397,Burhanpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,229,Changlang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,323,Chatra,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,532,Chikkamagaluru,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,533,Chitradurga,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,95,Chittorgarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,758,Chumoukedima,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,96,Churu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,308,Cooch Behar,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+38,The Dadra And Nagar Haveli And Daman And Diu,465,Dadra And Nagar Haveli,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,324,Deoghar,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,674,Devbhumi Dwarka,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,377,Dhamtari,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,299,Dima Hasao,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,326,Dumka,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,78,East,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,740,Eastern West Khasi Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,505,East Godavari,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,274,East Khasi Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,327,East Singhbum,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,475,Gadchiroli,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,353,Gajapati,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,626,Ganderbal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,734,Gaurela-Pendra-Marwahi,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,329,Giridih,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,675,Gir Somnath,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,287,Goalpara,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,476,Gondia,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,506,Guntur,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,709,Hojai,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,312,Hooghly,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,33,Hoshiarpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,313,Howrah,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,256,Imphal West,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,411,Jabalpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,34,Jalandhar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,478,Jalgaon,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,5,Jammu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,106,Jhunjhunu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,695,Jogulamba Gadwal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,711,Kakching,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,538,Kalaburagi,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,717,Kamjong,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,291,Kamrup,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,712,Kangpokpi,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,292,Karbi Anglong,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,558,Kasaragod,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,509,Khammam,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,728,Khawzawl,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,362,Khordha,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,541,Kodagu,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,363,Koraput,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,383,Korba,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,384,Korea,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,677,Kra Daadi,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,577,Krishnagiri,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,68,Kurukshetra,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,21,Lahaul And Spiti,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,295,Lakhimpur,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,724,Leparada,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,666,Longding,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,236,Lower Subansiri,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,36,Ludhiana,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,512,Mahabubnagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,385,Mahasamund,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+34,Puducherry,599,Mahe,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,416,Mandsaur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,544,Mandya,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,766,MAUGANJ,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,761,Mohla-Manpur-Ambagarh Chouki,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,297,Nagaon,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,298,Nalbari,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,580,Namakkal,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,678,Namsai,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,755,Nandyal,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,773,Neem Ka Thana,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,79,New Delhi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,368,Nuapada,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,454,Panch Mahals,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,211,Pashchim Champaran,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,455,Patan,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,581,Perambalur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,613,Peren,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,248,Phek,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,715,Pherzawl,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,517,Prakasam,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,629,Pratapgarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,582,Pudukkottai,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,317,Purba Medinipur,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,214,Purnia,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,321,Purulia,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,388,Rajnandgaon,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,112,Rajsamand,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,583,Ramanathapuram,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,339,Ranchi,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,492,Ratnagiri,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,370,Rayagada,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,216,Saharsa,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,340,Sahebganj,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,762,Sakti,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,178,Sant Kabir Nagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,341,Saraikela Kharsawan,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,113,Sawai Madhopur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+16,Tripura,653,Sepahijala,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,268,Serchhip,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,429,Shahdol,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,220,Sheohar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,181,Shrawasti,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,342,Simdega,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,222,Siwan,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,25,Solan,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,670,South East,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,84,South West,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,648,Surajpur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,389,Surguja,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,258,Tamenglong,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,609,Tarn Taran,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,238,Tawang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,733,Tenkasi,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,586,Thanjavur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,587,The Nilgiris,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,302,Tinsukia,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,239,Tirap,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,732,Tirupathur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,116,Tonk,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,549,Udupi,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,260,Ukhrul,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,26,Una,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,381,Uttar Bastar Kanker,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,437,Vidisha,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,738,Vijayanagar,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,530,Vijayapura,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,698,Vikarabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,499,Washim,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,710,West Karbi Anglong,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,250,Wokha,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,501,Adilabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,438,Ahmedabad,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,261,Aizawl,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,467,Akola,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,119,Aligarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,639,Alirajpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,87,Alwar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,640,Amethi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,123,Azamgarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,524,Bagalkote,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,46,Bageshwar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,528,Ballari,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,750,Bapatla,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,90,Barmer,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,605,Barnala,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,280,Barpeta,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,374,Bastar,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,394,Betul,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,348,Bhadrak,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,443,Bhavnagar,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,92,Bhilwara,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,59,Bhiwani,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,529,Bidar,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,132,Bijnor,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,15,Bilaspur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,322,Bokaro,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,281,Bongaigaon,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,2,Budgam,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,194,Buxar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,77,Central,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,16,Chamba,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+15,Mizoram,262,Champhai,LUSHAI/MIZO,Lushai/Mizo,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+4,Chandigarh,44,Chandigarh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,730,Chengalpattu,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,469,Chhatrapati Sambhajinagar,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,399,Chhindwara,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,136,Chitrakoot,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,254,Churachandpur,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,570,Cuddalore,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,350,Cuttack,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,534,Dakshina Kannada,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+38,The Dadra And Nagar Haveli And Daman And Diu,463,Daman,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,195,Darbhanga,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,97,Dausa,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,767,Deeg,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,137,Deoria,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,402,Dewas,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,403,Dhar,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,488,Dharashiv,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,474,Dhule,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,747,Dr. B.R. Ambedkar Konaseema,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,231,East Kameng,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,139,Etawah,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,60,Faridabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,143,Firozabad,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,100,Ganganagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,288,Golaghat,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,148,Gorakhpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,406,Guna,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,228,Gyalshing,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,149,Hamirpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,556,Idukki,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+14,Manipur,255,Imphal East,MANIPURI,Manipuri,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,410,Indore,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,783,Jaipur (Gramin),UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,103,Jaisalmer,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,689,Jangoan,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,152,Jaunpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,64,Jhajjar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,448,Junagadh,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,66,Kaithal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,718,Kamle,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,575,Kanniyakumari,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+34,Puducherry,598,Karaikal,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,293,Karimganj,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,158,Kaushambi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,781,Kekri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,361,Kendujhar,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,759,Khairagarh-Chhuikhadan-Gandai,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,245,Kohima,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,294,Kokrajhar,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,480,Kolhapur,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,643,Kondagaon,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+2,Himachal Pradesh,20,Kullu,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,233,Kurung Kumey,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+37,Ladakh,9,Leh Ladakh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,162,Lucknow,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,205,Madhepura,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,737,Malerkotla,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,226,Mangan,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,37,Mansa,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,296,Marigaon,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,167,Mathura,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,169,Meerut,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,38,Moga,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,647,Mungeli,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,172,Muzaffarnagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,208,Muzaffarpur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,110,Nagaur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,227,Namchi,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,637,Narayanpur,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,452,Narmada,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+21,Odisha,367,Nayagarh,ODIA,Odia,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,764,Niuland,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,303,North 24 Parganas,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+35,Andaman And Nicobar Islands,632,North And Middle Andaman,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,656,North Garo Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,604,Nuh,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,741,Pakyong,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,111,Pali,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,751,Palnadu,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+6,Haryana,619,Palwal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,420,Panna,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,52,Pauri Garhwal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,772,Phalodi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,173,Pilibhit,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+19,West Bengal,306,Purba Bardhaman,BENGALI,Bengali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+24,Gujarat,457,Rajkot,GUJARATI,Gujarati,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,631,Ramanagara,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,607,Ramgarh,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,176,Rampur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,731,Ranipet,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,424,Rewa,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,215,Rohtas,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+3,Punjab,42,Rupnagar,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,779,Sanchore,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,494,Satara,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,428,Seoni,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,180,Shahjahanpur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,430,Shajapur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,431,Sheopur,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,432,Shivpuri,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+1,Jammu And Kashmir,625,Shopian,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,433,Sidhi,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+23,Madhya Pradesh,638,Singrauli,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+9,Uttar Pradesh,183,Sitapur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,496,Solapur,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+11,Sikkim,742,Soreng,NEPALI,Nepali,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+7,Delhi,83,South,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,707,South Salmara Mancachar,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,663,South West Garo Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+28,Andhra Pradesh,519,Srikakulam,TELUGU,Telugu,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+22,Chhattisgarh,642,Sukma,HINDI,Chhattisgarhi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+10,Bihar,223,Supaul,HINDI,Hindi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,756,Tamulpur,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,55,Tehri Garhwal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+27,Maharashtra,497,Thane,MARATHI,Marathi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,565,Thiruvananthapuram,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,591,Tiruchirappalli,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,634,Tiruppur,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+33,Tamil Nadu,593,Tiruvannamalai,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+8,Rajasthan,117,Udaipur,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+18,Assam,617,Udalguri,ASSAMESE,Assamese,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,240,Upper Siang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,550,Uttara Kannada,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+5,Uttarakhand,57,Uttar Kashi,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,522,Warangal,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+32,Kerala,567,Wayanad,MALAYALAM,Malayalam,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,278,West Garo Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+17,Meghalaya,275,West Jaintia Hills,KHASI,Khasi,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+12,Arunachal Pradesh,243,West Siang,NISSI/DAFLA,Nissi/Dafla,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+20,Jharkhand,343,West Singhbhum,HINDI,Khortha/Khotta,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+36,Telangana,697,Yadadri Bhuvanagiri,UNKNOWN,UNKNOWN,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+29,Karnataka,635,Yadgir,KANNADA,Kannada,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+34,Puducherry,601,Yanam,TAMIL,Tamil,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION
+13,Nagaland,251,Zunheboto,KONYAK,Konyak,C16,2011,https://censusindia.gov.in/nada/index.php/catalog/10191,STATE_FALLBACK,NOT_DISTRICT_OBSERVATION

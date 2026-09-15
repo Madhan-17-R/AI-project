@@ -151,28 +151,74 @@ def resolve_port() -> Optional[str]:
 
 # ─── JSON parsing ─────────────────────────────────────────────────────────────
 
-def parse_json_line(raw_line: str) -> Optional[ESP32Packet]:
+import re
+from app.config import settings
+
+_test_buffer = {}
+
+def parse_serial_line(raw_line: str) -> Optional[ESP32Packet]:
     """
-    Parse a raw serial line as a JSON ESP32Packet.
-    Returns None and logs the error for any malformed input — never raises.
+    Parse a raw serial line. Supports both JSON (production) and text-based test sketch.
+    Returns an ESP32Packet if a complete reading is formed.
     """
+    global _test_buffer
     line = raw_line.strip()
-    if not line or not line.startswith("{"):
-        # Startup banners, diagnostics, empty lines — silently ignore
+    if not line:
         return None
 
-    try:
-        data = json.loads(line)
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON from serial: {e} | raw: {line[:120]}")
-        return None
+    # 1. JSON Mode (Production)
+    if line.startswith("{"):
+        try:
+            data = json.loads(line)
+            return ESP32Packet(**data)
+        except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON from serial: {e} | raw: {line[:120]}")
+            return None
+        except Exception as e:
+            logger.error(f"Sensor validation failed: {e} | raw: {line[:120]}")
+            return None
 
+    # 2. Text Mode (Test Sketch)
     try:
-        packet = ESP32Packet(**data)
-        return packet
+        if "Air Temperature:" in line:
+            match = re.search(r'Air Temperature:\s*([\d.]+)', line)
+            if match: _test_buffer['air_temperature'] = float(match.group(1))
+        elif "Humidity:" in line:
+            match = re.search(r'Humidity:\s*([\d.]+)', line)
+            if match: _test_buffer['humidity'] = float(match.group(1))
+        elif "Soil Temperature:" in line:
+            match = re.search(r'Soil Temperature:\s*([\d.]+)', line)
+            if match: _test_buffer['soil_temperature'] = float(match.group(1))
+        elif "Light:" in line:
+            match = re.search(r'Light:\s*([\d.]+)', line)
+            if match: _test_buffer['light_lux'] = float(match.group(1))
+        elif "Soil Moisture ADC Raw:" in line:
+            match = re.search(r'Soil Moisture ADC Raw:\s*([\d.]+)', line)
+            if match: 
+                # Convert ADC raw to a rough moisture percentage (assuming 22000 is ~dry, 10000 is wet)
+                # We'll just provide a dummy moisture if they didn't calibrate, or use a basic map.
+                # Actually, let's just output a default since the test sketch only gives ADC/Voltage.
+                # Let's map 22000 -> ~10%, 15000 -> ~80%
+                raw_adc = float(match.group(1))
+                moisture = max(0.0, min(100.0, 100.0 - ((raw_adc - 10000) / 120.0)))
+                _test_buffer['soil_moisture'] = round(moisture, 1)
+        elif "Soil Moisture Voltage:" in line:
+            # This is the last line of the test block!
+            if 'air_temperature' in _test_buffer:
+                packet = ESP32Packet(
+                    device_id=settings.device_id,
+                    soil_moisture=_test_buffer.get('soil_moisture', 45.0),
+                    soil_temperature=_test_buffer.get('soil_temperature', 25.0),
+                    air_temperature=_test_buffer.get('air_temperature', 25.0),
+                    humidity=_test_buffer.get('humidity', 50.0),
+                    light_lux=_test_buffer.get('light_lux', 1000.0)
+                )
+                _test_buffer.clear()
+                return packet
     except Exception as e:
-        logger.error(f"Sensor validation failed: {e} | raw: {line[:120]}")
-        return None
+        logger.error(f"Test sketch parse error: {e}")
+    
+    return None
 
 
 # ─── Mock sensor mode ─────────────────────────────────────────────────────────
@@ -273,7 +319,7 @@ async def serial_reader_task() -> None:
                     # Port was closed externally / device removed
                     break
 
-                packet = parse_json_line(raw)
+                packet = parse_serial_line(raw)
                 if packet is None:
                     continue
 

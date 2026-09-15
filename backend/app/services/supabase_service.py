@@ -125,11 +125,11 @@ def upsert_anomaly(
     deviation: Optional[float],
     risk_level: str,
     message: str,
-) -> bool:
-    """Insert an anomaly row into the anomalies table."""
+) -> Optional[str]:
+    """Insert an anomaly row into the anomalies table and return its ID."""
     client = get_client()
     if client is None:
-        return False
+        return None
 
     row = {
         "device_id":      device_id,
@@ -143,12 +143,12 @@ def upsert_anomaly(
     }
 
     try:
-        client.table("anomalies").insert(row).execute()
+        response = client.table("anomalies").insert(row).execute()
         logger.info(f"Anomaly stored: {sensor} {risk_level} for {device_id}")
-        return True
+        return response.data[0].get("id") if response.data else None
     except Exception as e:
         logger.error(f"Failed to store anomaly: {e}")
-        return False
+        return None
 
 
 def get_recent_anomalies(device_id: str, limit: int = 20) -> list[dict]:
@@ -167,8 +167,39 @@ def get_recent_anomalies(device_id: str, limit: int = 20) -> list[dict]:
         )
         return result.data or []
     except Exception as e:
-        logger.error(f"Failed to fetch anomalies: {e}")
+        logger.error(f"Failed to fetch recent anomalies: {e}")
         return []
+
+
+# ─── AI Analysis ──────────────────────────────────────────────────────────────
+
+def store_ai_analysis(event_id: str, analysis_data: dict) -> bool:
+    """Insert AI analysis result into the ai_analysis table."""
+    client = get_client()
+    if client is None:
+        return False
+
+    try:
+        client.table("ai_analysis").insert(analysis_data).execute()
+        logger.info(f"AI Analysis stored for event_id: {event_id}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to store AI analysis for {event_id}: {e}")
+        return False
+
+
+def check_ai_analysis_exists(event_id: str) -> bool:
+    """Check if an AI analysis already exists for this event ID to ensure idempotency."""
+    client = get_client()
+    if client is None:
+        return False
+        
+    try:
+        result = client.table("ai_analysis").select("id").eq("event_id", event_id).limit(1).execute()
+        return len(result.data) > 0
+    except Exception as e:
+        logger.error(f"Failed to check AI analysis existence for {event_id}: {e}")
+        return False
 
 
 # ─── Device Status ────────────────────────────────────────────────────────────
@@ -241,3 +272,97 @@ def log_device_event(event: DeviceEvent) -> bool:
     except Exception as e:
         logger.error(f"Failed to log device event: {e}")
         return False
+
+
+# ─── Adaptive Baselines ───────────────────────────────────────────────────────
+
+_adaptive_baselines_table_exists = True
+
+def upsert_adaptive_baseline(
+    device_id: str,
+    sensor: str,
+    state_dict: dict
+) -> bool:
+    """
+    Upsert one sensor's adaptive baseline state to the adaptive_baselines table.
+    Uses (device_id, sensor) as the conflict key.
+    """
+    global _adaptive_baselines_table_exists
+    if not _adaptive_baselines_table_exists:
+        return False
+
+    client = get_client()
+    if client is None:
+        return False
+
+    from datetime import datetime, timezone
+    row = {
+        "device_id":  device_id,
+        "sensor":     sensor,
+        "updated_at": datetime.now(tz=timezone.utc).isoformat(),
+    }
+    # Merge provided state dict
+    for k, v in state_dict.items():
+        row[k] = v
+
+    try:
+        client.table("adaptive_baselines").upsert(
+            row, on_conflict="device_id,sensor"
+        ).execute()
+        logger.debug(f"Adaptive baseline upserted: {device_id}/{sensor}")
+        return True
+    except Exception as e:
+        if "PGRST205" in str(e) or "Could not find the table" in str(e):
+            _adaptive_baselines_table_exists = False
+            logger.warning("Table 'adaptive_baselines' is missing in Supabase. Falling back to in-memory only. Suppressing further upsert errors.")
+        else:
+            logger.error(f"Failed to upsert adaptive baseline for {device_id}/{sensor}: {e}")
+        return False
+
+
+def load_adaptive_baselines(device_id: str) -> list[dict]:
+    """
+    Load all adaptive baseline rows for a device from Supabase.
+    Called once at FastAPI startup to restore baseline state after restart.
+    """
+    client = get_client()
+    if client is None:
+        return []
+    try:
+        result = (
+            client.table("adaptive_baselines")
+            .select("*")
+            .eq("device_id", device_id)
+            .execute()
+        )
+        return result.data or []
+    except Exception as e:
+        logger.error(f"Failed to load adaptive baselines for {device_id}: {e}")
+        return []
+
+
+def get_bounded_reading_history(device_id: str, limit: int = 2016) -> list[dict]:
+    """
+    Fetch the most recent `limit` sensor readings for the adaptive calculation path.
+    NEVER called from the fast path (per-packet).
+    Hard-capped at 2016 rows (~7 days at 5-min intervals) to prevent full-table scans.
+    """
+    client = get_client()
+    if client is None:
+        return []
+    try:
+        result = (
+            client.table("sensor_readings")
+            .select(
+                "timestamp,soil_moisture,soil_temperature,"
+                "air_temperature,humidity,light_lux"
+            )
+            .eq("device_id", device_id)
+            .order("timestamp", desc=True)
+            .limit(min(limit, 2016))
+            .execute()
+        )
+        return result.data or []
+    except Exception as e:
+        logger.error(f"Failed to fetch bounded reading history for {device_id}: {e}")
+        return []

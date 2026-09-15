@@ -1,0 +1,786 @@
+state_code,state,district_code,district,state_census2011_code,district_census2011_code,source_id,source_year,source_url
+32,Kerala,554,Alappuzha,32,598,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,121,Ambedkar Nagar,09,178,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,27,Amritsar,03,049,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,672,Arvalli,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,611,Arwal,10,240,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,189,Aurangabad,10,235,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,125,Bahraich,09,180,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,646,Balod,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,127,Balrampur,09,182,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,649,Balrampur-Ramanujganj,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,623,Bandipora,01,009,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,470,Beed,27,523,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,650,Bemetara,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,525,Bengaluru Urban,29,572,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,179,Bhadohi,09,198,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,471,Bhandara,27,506,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,395,Bhind,23,420,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,636,Bijapur,22,417,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,676,Botad,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,47,Chamoli,05,057,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,135,Chandauli,09,196,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,253,Chandel,14,280,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,473,Chandrapur,27,509,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,398,Chhatarpur,23,425,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,668,Chhotaudepur,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,445,Dahod,24,485,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,310,Dakshin Dinajpur,19,331,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,400,Damoh,23,428,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,444,Dangs,24,489,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,309,Darjeeling,19,327,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,535,Davangere,29,567,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,269,Dhalai,16,291,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,352,Dhenkanal,21,383,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,404,Dindori,23,453,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,769,Dudu,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,657,East Jaintia Hills,17,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,748,Eluru,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,573,Erode,33,610,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,651,Fazilka,03,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,31,Ferozepur,03,043,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,446,Gandhinagar,24,473,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,328,Garhwa,20,346,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,645,Gariyaband,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,196,Gaya,10,236,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,654,Gomati,16,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,331,Gumla,20,366,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,17,Hamirpur,02,028,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,686,Hanumakonda,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,408,Harda,23,448,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,50,Haridwar,05,068,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,539,Hassan,29,574,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,355,Jagatsinghapur,21,380,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,102,Jaipur,08,110,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,104,Jalore,08,116,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,314,Jalpaiguri,19,328,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,687,Jayashankar Bhupalapally,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,105,Jhalawar,08,129,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,153,Jhansi,09,166,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,357,Jharsuguda,21,371,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,382,Kabeerdham,22,407,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,702,Kalimpong,19,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,156,Kanpur Dehat,09,163,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,108,Karauli,08,107,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,508,Karimnagar,00,534,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,201,Katihar,10,212,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,360,Kendrapara,21,379,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,414,Khargone (West Nimar),23,440,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,450,Kheda,24,483,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,159,Kheri,09,153,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,652,Khowai,16,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,606,Khunti,20,365,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,620,Kishtwar,01,018,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,263,Kolasib,15,282,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,315,Kolkata,19,342,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,559,Kollam,32,600,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,109,Kota,08,127,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,160,Kushinagar,09,189,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+31,Lakshadweep,553,Lakshadweep District,31,587,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,161,Lalitpur,09,167,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,335,Latehar,20,359,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,234,Lohit,12,259,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,615,Longleng,13,268,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,206,Madhubani,10,207,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,578,Madurai,33,623,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,69,Mahendragarh,06,084,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,669,Mahisagar,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,784,Maihar,23,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,166,Mainpuri,09,148,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,706,Majuli,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,562,Malappuram,32,592,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,316,Malda,19,332,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,364,Malkangiri,21,399,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,684,Mancherial,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,168,Mau,09,192,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,247,Mon,13,261,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,720,Mulugu,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,207,Munger,10,226,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,545,Mysuru,29,577,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,579,Nagapattinam,33,618,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,484,Nagpur,27,505,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,51,Nainital,05,066,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,409,Narmadapuram,23,449,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,487,Nashik,27,516,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,453,Navsari,24,490,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,714,Noney,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,81,North East,07,092,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,270,North Tripura,16,292,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,749,Ntr,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,563,Palakkad,32,593,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,338,Palamu,20,358,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,665,Palghar,27,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,70,Panchkula,06,069,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,71,Panipat,06,075,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,743,Parvathipuram Manyam,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,662,Pathankot,03,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,53,Pithoragarh,05,062,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,213,Purbi Champaran,10,204,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,369,Puri,21,387,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,421,Raisen,23,446,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,518,Ranga Reddy,00,537,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,627,Reasi,01,020,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,425,Sagar,23,427,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,217,Samastipur,10,221,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,43,Sangrur,03,053,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,608,S.A.S Nagar,03,052,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,40,Shahid Bhagat Singh Nagar,03,039,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,182,Siddharthnagar,09,184,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,114,Sikar,08,111,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,495,Sindhudurg,27,529,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,115,Sirohi,08,117,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,74,Sirsa,06,079,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,585,Sivaganga,33,622,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,184,Sonbhadra,09,200,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,372,Sonepur,21,392,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,304,South 24 Parganas,19,343,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+30,Goa,552,South Goa,30,586,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,696,Suryapet,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,716,Tengnoupal,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,588,Theni,33,624,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,590,Thiruvarur,33,619,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,434,Tikamgarh,23,424,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,655,Unakoti,16,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,241,Upper Subansiri,12,249,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,187,Varanasi,09,197,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,597,Virudhunagar,33,625,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,498,Wardha,27,504,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,279,West Khasi Hills,17,296,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,272,West Tripura,16,289,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,504,Y.S.R.,28,551,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,667,Agar-Malwa,23,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,118,Agra,09,146,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,86,Ajmer,08,119,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,664,Alipurduar,19,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,45,Almora,05,064,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,58,Ambala,06,070,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,468,Amravati,27,503,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,439,Amreli,24,480,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,1,Anantnag,01,014,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,753,Annamayya,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,616,Baksa,18,324,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,346,Baleshwar,21,377,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,126,Ballia,09,193,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,644,Balodabazar-Bhatapara,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,128,Banda,09,170,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,190,Banka,10,225,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,305,Bankura,19,339,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,3,Baramulla,01,008,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,130,Bareilly,09,150,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,393,Barwani,23,441,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,28,Bathinda,03,046,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,191,Begusarai,10,222,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,527,Belagavi,29,555,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,192,Bhagalpur,10,224,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,375,Bilaspur,22,406,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,252,Bishnupur,14,275,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,705,Biswanath,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,133,Budaun,09,149,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,134,Bulandshahr,09,142,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,94,Bundi,08,121,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,282,Cachar,18,316,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,531,Chamarajanagara,29,578,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,48,Champawat,05,065,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,708,Charaideo,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,568,Chennai,33,603,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,612,Chirang,18,320,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,569,Coimbatore,33,632,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,401,Datia,23,422,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,325,Dhanbad,20,354,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,571,Dharmapuri,33,630,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,536,Dharwad,29,562,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,98,Dholpur,08,106,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,286,Dibrugarh,18,310,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,378,Durg,22,409,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,273,East Garo Hills,17,294,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,29,Faridkot,03,045,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,30,Fatehgarh Sahib,03,040,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,354,Ganjam,21,388,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,144,Gautam Buddha Nagar,09,141,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,146,Ghazipur,09,195,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,330,Godda,20,351,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,62,Gurugram,06,086,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,661,Hapur,09,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,163,Hathras,09,144,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,540,Haveri,29,564,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,63,Hisar,06,080,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,726,Hnahthial,15,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,507,Hyderabad,00,536,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,151,Jalaun,09,165,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,479,Jalna,27,514,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,447,Jamnagar,24,477,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,380,Jashpur,22,402,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,412,Jhabua,23,464,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,65,Jind,06,077,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,713,Jiribam,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,107,Jodhpur,08,113,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,778,Jodhpur (Gramin),08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,290,Jorhat,18,312,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,449,Kachchh,24,468,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,746,Kakinada,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,358,Kalahandi,21,395,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,729,Kallakurichi,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,685,Kamareddy,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,618,Kamrup Metro,18,322,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,557,Kannur,32,589,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,157,Kanpur Nagar,09,164,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,35,Kapurthala,03,036,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+37,Ladakh,6,Kargil,00,004,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,576,Karur,33,613,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,7,Kathua,01,007,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,770,Khairthal-Tijara,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,405,Khandwa (East Nimar),23,466,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,542,Kolar,29,581,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,699,Kumuram Bheem Asifabad,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,264,Lawngtlai,15,287,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,336,Lohardaga,20,356,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,235,Lower Dibang Valley,12,258,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,719,Lower Siang,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,165,Mahoba,09,169,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,415,Mandla,23,454,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,735,Mayiladuthurai,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,513,Medak,00,535,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,170,Mirzapur,09,199,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,246,Mokokchung,13,262,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,171,Moradabad,09,135,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,673,Morbi,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,482,Mumbai,27,519,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,483,Mumbai Suburban,27,518,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,694,Nagarkurnool,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,209,Nalanda,10,229,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,514,Nalgonda,00,539,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,210,Nawada,10,237,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,80,North,07,091,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,82,North West,07,090,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,237,Papum Pare,12,248,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,564,Pathanamthitta,32,599,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,456,Porbandar,24,478,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,120,Prayagraj,09,175,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,175,Rae Bareli,09,158,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,546,Raichur,29,559,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,683,Rajanna Sircilla,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,621,Ramban,01,017,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,423,Ratlam,23,434,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,72,Rewari,06,085,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,276,Ri Bhoi,17,297,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,73,Rohtak,06,082,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,624,Samba,01,022,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,371,Sambalpur,21,372,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,493,Sangli,27,531,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,427,Sehore,23,445,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,257,Senapati,14,272,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,780,Shahpura,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,219,Sheikhpura,10,228,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,679,Siang,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,692,Siddipet,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,24,Sirmaur,02,032,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,300,Sivasagar,18,311,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,301,Sonitpur,18,306,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,271,South Tripura,16,290,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,185,Sultanpur,09,179,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,373,Sundargarh,21,374,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,459,Surat,24,492,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,460,Surendranagar,24,475,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,594,Thoothukkudi,33,627,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,566,Thrissur,32,594,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,752,Tirupati,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,249,Tuensang,13,267,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,56,Udam Singh Nagar,05,067,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,14,Udhampur,01,019,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,435,Ujjain,23,435,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,186,Unnao,09,156,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,311,Uttar Dinajpur,19,330,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,595,Vellore,33,605,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,693,Wanaparthy,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,523,West Godavari,28,546,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,242,West Kameng,12,246,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,76,Yamunanagar,06,071,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,500,Yavatmal,27,510,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,466,Ahmednagar,27,522,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,745,Alluri Sitharama Raju,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,154,Amroha,09,137,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,744,Anakapalli,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,628,Anjaw,12,260,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,776,Anupgarh,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,122,Auraiya,09,162,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,140,Ayodhya,09,177,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,739,Bajali,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,345,Balangir,21,393,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,129,Bara Banki,09,176,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,690,Bhadradri Kothagudem,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,91,Bharatpur,08,105,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,193,Bhojpur,10,231,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,93,Bikaner,08,101,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,307,Birbhum,19,334,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,701,Charki Dadri,06,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,630,Chikkaballapura,29,582,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,503,Chittoor,28,554,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,376,Dakshin Bastar Dantewada,22,416,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,283,Darrang,18,325,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,49,Dehradun,05,060,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,351,Deogarh,21,373,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,284,Dhemaji,18,308,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,285,Dhubri,18,301,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,230,Dibang Valley,12,257,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,768,Didwana-Kuchaman,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,244,Dimapur,13,265,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,572,Dindigul,33,612,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+38,The Dadra And Nagar Haveli And Daman And Diu,464,Diu,NA,494,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,4,Doda,01,016,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,99,Dungarpur,08,124,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,232,East Siang,12,251,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,555,Ernakulam,32,595,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,138,Etah,09,201,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,141,Farrukhabad,09,159,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,61,Fatehabad,06,078,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,142,Fatehpur,09,172,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,537,Gadag,29,561,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,771,Gangapurcity,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,225,Gangtok,11,244,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,145,Ghaziabad,09,140,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,147,Gonda,09,183,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,197,Gopalganj,10,217,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,32,Gurdaspur,03,035,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,407,Gwalior,23,421,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,289,Hailakandi,18,318,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,101,Hanumangarh,08,100,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,150,Hardoi,09,155,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,332,Hazaribagh,20,360,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,477,Hingoli,27,512,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,681,Jagitial,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,356,Jajapur,21,382,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,333,Jamtara,20,363,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,198,Jamui,10,238,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,379,Janjgir-Champa,22,405,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,199,Jehanabad,10,239,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,703,Jhargram,19,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,200,Kaimur (Bhabua),10,233,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,574,Kancheepuram,33,604,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,359,Kandhamal,21,390,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,18,Kangra,02,024,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,155,Kannauj,09,160,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,67,Karnal,06,074,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,633,Kasganj,09,202,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,413,Katni,23,450,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,202,Khagaria,10,223,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,19,Kinnaur,02,034,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,614,Kiphire,13,269,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,203,Kishanganj,10,210,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,334,Koderma,20,348,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,543,Koppal,29,560,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,782,Kotputli-Behror,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,560,Kottayam,32,597,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,561,Kozhikode,32,591,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,510,Krishna,28,547,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,622,Kulgam,01,015,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,8,Kupwara,01,001,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,511,Kurnool,28,552,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,204,Lakhisarai,10,227,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,481,Latur,27,524,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,265,Lunglei,15,286,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,688,Mahabubabad,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,451,Mahesana,24,471,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,164,Mahrajganj,09,187,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,266,Mamit,15,281,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,22,Mandi,02,027,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,760,Manendragarh-Chirmiri-Bharatpur(M C B),22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,365,Mayurbhanj,21,376,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,700,Medchal Malkajgiri,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,417,Morena,23,419,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,319,Murshidabad,19,333,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,366,Nabarangpur,21,397,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,320,Nadia,19,336,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,485,Nanded,27,511,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,486,Nandurbar,27,497,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,721,Narayanpet,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,418,Narsimhapur,23,452,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,419,Neemuch,23,432,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+35,Andaman And Nicobar Islands,603,Nicobars,35,638,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,680,Nirmal,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,722,Niwari,23,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,516,Nizamabad,00,533,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,736,Noklak,13,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+30,Goa,551,North Goa,30,585,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,723,Pakke Kessang,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,337,Pakur,20,353,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,785,Pandhurna,23,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,489,Parbhani,27,513,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,704,Paschim Bardhaman,19,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,318,Paschim Medinipur,19,344,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,41,Patiala,03,048,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,212,Patna,10,230,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,682,Peddapalli,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,10,Poonch,01,005,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,174,Pratapgarh,09,173,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+34,Puducherry,600,Puducherry,34,635,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,11,Pulwama,01,012,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,490,Pune,27,521,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,491,Raigad,27,520,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,386,Raigarh,22,403,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,387,Raipur,22,410,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,422,Rajgarh,23,442,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,12,Rajouri,01,006,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,54,Rudra Prayag,05,058,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,458,Sabar Kantha,24,472,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,177,Saharanpur,09,132,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,727,Saitual,15,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,584,Salem,33,608,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,777,Salumbar,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,659,Sambhal,09,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,691,Sangareddy,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,218,Saran,10,219,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,763,Sarangarh-Bilaigarh,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,426,Satna,23,429,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,671,Shahdara,07,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,765,Shamator,13,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,660,Shamli,09,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,23,Shimla,02,033,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,547,Shivamogga,29,568,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,725,Shi Yomi,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,267,Siaha,15,288,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,221,Sitamarhi,10,206,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,75,Sonipat,06,076,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+35,Andaman And Nicobar Islands,602,South Andamans,35,640,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,277,South Garo Hills,17,295,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,658,South West Khasi Hills,17,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,39,Sri Muktsar Sahib,03,044,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,13,Srinagar,01,010,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,515,Sri Potti Sriramulu Nellore,28,550,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,754,Sri Sathya Sai,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,641,Tapi,24,493,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,589,Thiruvallur,33,602,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,259,Thoubal,14,276,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,592,Tirunelveli,33,628,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,757,Tseminyu,13,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,548,Tumakuru,29,571,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,436,Umaria,23,431,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,461,Vadodara,24,486,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,224,Vaishali,10,220,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,462,Valsad,24,491,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,596,Viluppuram,33,607,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,520,Visakhapatnam,28,544,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,521,Vizianagaram,28,543,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,85,West,07,096,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,440,Anand,24,482,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,502,Ananthapuramu,28,553,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,344,Anugul,21,384,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,390,Anuppur,23,461,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,188,Araria,10,209,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,610,Ariyalur,33,616,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,391,Ashoknagar,23,459,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,124,Baghpat,09,139,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,392,Balaghat,23,457,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,775,Balotra,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,441,Banas Kantha,24,469,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,88,Banswara,08,125,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,89,Baran,08,128,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,347,Bargarh,21,370,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,131,Basti,09,185,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,774,Beawar,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,526,Bengaluru Rural,29,583,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,442,Bharuch,24,488,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,396,Bhopal,23,444,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,349,Boudh,21,391,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,472,Buldhana,27,500,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,397,Burhanpur,23,467,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,229,Changlang,12,253,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,323,Chatra,20,347,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,532,Chikkamagaluru,29,570,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,533,Chitradurga,29,566,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,95,Chittorgarh,08,126,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,758,Chumoukedima,13,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,96,Churu,08,102,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,308,Cooch Behar,19,329,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+38,The Dadra And Nagar Haveli And Daman And Diu,465,Dadra And Nagar Haveli,NA,496,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,324,Deoghar,20,350,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,674,Devbhumi Dwarka,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,377,Dhamtari,22,412,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,299,Dima Hasao,18,315,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,326,Dumka,20,362,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,78,East,07,093,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,740,Eastern West Khasi Hills,17,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,505,East Godavari,28,545,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,274,East Khasi Hills,17,298,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,327,East Singhbum,20,357,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,475,Gadchiroli,27,508,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,353,Gajapati,21,389,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,626,Ganderbal,01,011,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,734,Gaurela-Pendra-Marwahi,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,329,Giridih,20,349,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,675,Gir Somnath,24,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,287,Goalpara,18,302,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,476,Gondia,27,507,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,506,Guntur,28,548,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,709,Hojai,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,312,Hooghly,19,338,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,33,Hoshiarpur,03,038,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,313,Howrah,19,341,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,256,Imphal West,14,277,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,411,Jabalpur,23,451,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,34,Jalandhar,03,037,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,478,Jalgaon,27,499,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,5,Jammu,01,021,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,106,Jhunjhunu,08,103,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,695,Jogulamba Gadwal,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,711,Kakching,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,538,Kalaburagi,29,579,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,717,Kamjong,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,291,Kamrup,18,321,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,712,Kangpokpi,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,292,Karbi Anglong,18,314,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,558,Kasaragod,32,588,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,509,Khammam,00,541,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,728,Khawzawl,15,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,362,Khordha,21,386,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,541,Kodagu,29,576,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,363,Koraput,21,398,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,383,Korba,22,404,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,384,Korea,22,400,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,677,Kra Daadi,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,577,Krishnagiri,33,631,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,68,Kurukshetra,06,072,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,21,Lahaul And Spiti,02,025,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,295,Lakhimpur,18,307,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,724,Leparada,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,666,Longding,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,236,Lower Subansiri,12,255,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,36,Ludhiana,03,041,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,512,Mahabubnagar,00,538,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,385,Mahasamund,22,411,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+34,Puducherry,599,Mahe,34,636,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,416,Mandsaur,23,433,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,544,Mandya,29,573,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,766,MAUGANJ,23,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,761,Mohla-Manpur-Ambagarh Chouki,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,297,Nagaon,18,305,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,298,Nalbari,18,323,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,580,Namakkal,33,609,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,678,Namsai,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,755,Nandyal,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,773,Neem Ka Thana,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,79,New Delhi,07,094,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,368,Nuapada,21,394,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,454,Panch Mahals,24,484,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,211,Pashchim Champaran,10,203,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,455,Patan,24,470,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,581,Perambalur,33,615,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,613,Peren,13,271,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,248,Phek,13,266,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,715,Pherzawl,14,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,517,Prakasam,28,549,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,629,Pratapgarh,08,131,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,582,Pudukkottai,33,621,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,317,Purba Medinipur,19,345,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,214,Purnia,10,211,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,321,Purulia,19,340,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,388,Rajnandgaon,22,408,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,112,Rajsamand,08,123,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,583,Ramanathapuram,33,626,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,339,Ranchi,20,364,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,492,Ratnagiri,27,528,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,370,Rayagada,21,396,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,216,Saharsa,10,214,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,340,Sahebganj,20,352,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,762,Sakti,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,178,Sant Kabir Nagar,09,186,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,341,Saraikela Kharsawan,20,369,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,113,Sawai Madhopur,08,108,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+16,Tripura,653,Sepahijala,16,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,268,Serchhip,15,285,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,429,Shahdol,23,460,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,220,Sheohar,10,205,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,181,Shrawasti,09,181,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,342,Simdega,20,367,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,222,Siwan,10,218,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,25,Solan,02,031,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,670,South East,07,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,84,South West,07,097,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,648,Surajpur,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,389,Surguja,22,401,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,258,Tamenglong,14,273,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,609,Tarn Taran,03,050,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,238,Tawang,12,245,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,733,Tenkasi,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,586,Thanjavur,33,620,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,587,The Nilgiris,33,611,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,302,Tinsukia,18,309,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,239,Tirap,12,254,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,732,Tirupathur,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,116,Tonk,08,120,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,549,Udupi,29,569,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,260,Ukhrul,14,279,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,26,Una,02,029,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,381,Uttar Bastar Kanker,22,413,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,437,Vidisha,23,443,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,738,Vijayanagar,29,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,530,Vijayapura,29,557,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,698,Vikarabad,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,499,Washim,27,502,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,710,West Karbi Anglong,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,250,Wokha,13,264,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,501,Adilabad,00,532,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,438,Ahmedabad,24,474,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,261,Aizawl,15,283,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,467,Akola,27,501,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,119,Aligarh,09,143,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,639,Alirajpur,23,465,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,87,Alwar,08,104,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,640,Amethi,09,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,123,Azamgarh,09,191,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,524,Bagalkote,29,556,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,46,Bageshwar,05,063,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,528,Ballari,29,565,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,750,Bapatla,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,90,Barmer,08,115,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,605,Barnala,03,054,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,280,Barpeta,18,303,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,374,Bastar,22,414,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,394,Betul,23,447,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,348,Bhadrak,21,378,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,443,Bhavnagar,24,481,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,92,Bhilwara,08,122,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,59,Bhiwani,06,081,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,529,Bidar,29,558,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,132,Bijnor,09,134,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,15,Bilaspur,02,030,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,322,Bokaro,20,355,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,281,Bongaigaon,18,319,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,2,Budgam,01,002,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,194,Buxar,10,232,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,77,Central,07,095,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,16,Chamba,02,023,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+15,Mizoram,262,Champhai,15,284,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+4,Chandigarh,44,Chandigarh,04,055,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,730,Chengalpattu,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,469,Chhatrapati Sambhajinagar,27,515,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,399,Chhindwara,23,455,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,136,Chitrakoot,09,171,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,254,Churachandpur,14,274,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,570,Cuddalore,33,617,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,350,Cuttack,21,381,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,534,Dakshina Kannada,29,575,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+38,The Dadra And Nagar Haveli And Daman And Diu,463,Daman,NA,495,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,195,Darbhanga,10,215,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,97,Dausa,08,109,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,767,Deeg,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,137,Deoria,09,190,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,402,Dewas,23,437,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,403,Dhar,23,438,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,488,Dharashiv,27,525,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,474,Dhule,27,498,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,747,Dr. B.R. Ambedkar Konaseema,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,231,East Kameng,12,247,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,139,Etawah,09,161,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,60,Faridabad,06,088,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,143,Firozabad,09,147,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,100,Ganganagar,08,099,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,288,Golaghat,18,313,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,148,Gorakhpur,09,188,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,406,Guna,23,458,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,228,Gyalshing,11,242,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,149,Hamirpur,09,168,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,556,Idukki,32,596,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+14,Manipur,255,Imphal East,14,278,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,410,Indore,23,439,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,783,Jaipur (Gramin),08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,103,Jaisalmer,08,114,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,689,Jangoan,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,152,Jaunpur,09,194,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,64,Jhajjar,06,083,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,448,Junagadh,24,479,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,66,Kaithal,06,073,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,718,Kamle,12,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,575,Kanniyakumari,33,629,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+34,Puducherry,598,Karaikal,34,637,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,293,Karimganj,18,317,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,158,Kaushambi,09,174,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,781,Kekri,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,361,Kendujhar,21,375,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,759,Khairagarh-Chhuikhadan-Gandai,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,245,Kohima,13,270,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,294,Kokrajhar,18,300,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,480,Kolhapur,27,530,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,643,Kondagaon,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+2,Himachal Pradesh,20,Kullu,02,026,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,233,Kurung Kumey,12,256,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+37,Ladakh,9,Leh Ladakh,00,003,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,162,Lucknow,09,157,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,205,Madhepura,10,213,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,737,Malerkotla,03,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,226,Mangan,11,241,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,37,Mansa,03,047,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,296,Marigaon,18,304,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,167,Mathura,09,145,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,169,Meerut,09,138,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,38,Moga,03,042,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,647,Mungeli,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,172,Muzaffarnagar,09,133,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,208,Muzaffarpur,10,216,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,110,Nagaur,08,112,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,227,Namchi,11,243,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,637,Narayanpur,22,415,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,452,Narmada,24,487,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+21,Odisha,367,Nayagarh,21,385,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,764,Niuland,13,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,303,North 24 Parganas,19,337,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+35,Andaman And Nicobar Islands,632,North And Middle Andaman,35,639,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,656,North Garo Hills,17,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,604,Nuh,06,087,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,741,Pakyong,11,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,111,Pali,08,118,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,751,Palnadu,28,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+6,Haryana,619,Palwal,06,089,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,420,Panna,23,426,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,52,Pauri Garhwal,05,061,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,772,Phalodi,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,173,Pilibhit,09,151,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+19,West Bengal,306,Purba Bardhaman,19,335,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+24,Gujarat,457,Rajkot,24,476,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,631,Ramanagara,29,584,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,607,Ramgarh,20,361,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,176,Rampur,09,136,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,731,Ranipet,33,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,424,Rewa,23,430,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,215,Rohtas,10,234,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+3,Punjab,42,Rupnagar,03,051,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,779,Sanchore,08,NA,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,494,Satara,27,527,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,428,Seoni,23,456,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,180,Shahjahanpur,09,152,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,430,Shajapur,23,436,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,431,Sheopur,23,418,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,432,Shivpuri,23,423,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+1,Jammu And Kashmir,625,Shopian,01,013,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,433,Sidhi,23,462,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+23,Madhya Pradesh,638,Singrauli,23,463,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+9,Uttar Pradesh,183,Sitapur,09,154,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,496,Solapur,27,526,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+11,Sikkim,742,Soreng,11,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+7,Delhi,83,South,07,098,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,707,South Salmara Mancachar,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,663,South West Garo Hills,17,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+28,Andhra Pradesh,519,Srikakulam,28,542,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+22,Chhattisgarh,642,Sukma,22,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+10,Bihar,223,Supaul,10,208,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,756,Tamulpur,18,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,55,Tehri Garhwal,05,059,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+27,Maharashtra,497,Thane,27,517,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,565,Thiruvananthapuram,32,601,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,591,Tiruchirappalli,33,614,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,634,Tiruppur,33,633,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+33,Tamil Nadu,593,Tiruvannamalai,33,606,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+8,Rajasthan,117,Udaipur,08,130,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+18,Assam,617,Udalguri,18,326,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,240,Upper Siang,12,252,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,550,Uttara Kannada,29,563,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+5,Uttarakhand,57,Uttar Kashi,05,056,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,522,Warangal,00,540,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+32,Kerala,567,Wayanad,32,590,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,278,West Garo Hills,17,293,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+17,Meghalaya,275,West Jaintia Hills,17,299,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+12,Arunachal Pradesh,243,West Siang,12,250,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+20,Jharkhand,343,West Singhbhum,20,368,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+36,Telangana,697,Yadadri Bhuvanagiri,00,000,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+29,Karnataka,635,Yadgir,29,580,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+34,Puducherry,601,Yanam,34,634,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts
+13,Nagaland,251,Zunheboto,13,263,LGD,2026,https://data.gov.in/resource/local-government-directory-lgd-districts

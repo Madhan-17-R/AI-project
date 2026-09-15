@@ -31,8 +31,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                if (localStorage.getItem('marudam-theme') === 'light') {
-                  document.documentElement.setAttribute('data-theme', 'light');
+                if (localStorage.getItem('marudam-theme') === 'dark') {
+                  document.documentElement.setAttribute('data-theme', 'dark');
                 }
               } catch (e) {}
             `,

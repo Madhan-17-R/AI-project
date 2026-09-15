@@ -5,58 +5,75 @@
 html, body { margin: 0; padding: 0; min-height: 100%; }
 
 :root {
-  --bg-base: #050c05;
-  --bg-panel: rgba(20, 30, 22, 0.6);
-  --bg-card: rgba(255, 255, 255, 0.02);
-  --bg-input: rgba(0, 0, 0, 0.2);
-  --bg-glass-strong: rgba(0, 0, 0, 0.4);
-  --bg-glass-heavy: rgba(0, 0, 0, 0.5);
-  --bg-header: rgba(5, 12, 5, 0.85);
+  /* ── Light theme (default — matches reference image) ───────────────────── */
+  --bg-base:          #f4f6f4;
+  --bg-panel:         #ffffff;
+  --bg-card:          #ffffff;
+  --bg-input:         rgba(0, 0, 0, 0.04);
+  --bg-glass-strong:  rgba(255, 255, 255, 0.9);
+  --bg-glass-heavy:   rgba(255, 255, 255, 0.95);
+  --bg-header:        #ffffff;
 
-  --text-primary: #f8f9fa;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-muted: rgba(255, 255, 255, 0.5);
-  
-  --border-subtle: rgba(255, 255, 255, 0.1);
-  --border-very-subtle: rgba(255, 255, 255, 0.05);
-  --border-brand-subtle: rgba(160, 224, 80, 0.15);
-  
-  --brand-primary: #a0e050;
-  --brand-primary-hover: #b4f064;
+  --text-primary:     #111a11;
+  --text-secondary:   #374137;
+  --text-muted:       #6b7c6b;
+  --text-faint:       #9aaa9a;
 
-  --status-normal: #4ade80;
-  --status-watch: #fbbf24;
-  --status-attention: #f87171;
+  --border-subtle:        rgba(0, 0, 0, 0.09);
+  --border-very-subtle:   rgba(0, 0, 0, 0.05);
+  --border-brand-subtle:  rgba(42, 110, 31, 0.18);
+
+  --brand-primary:        #2a6e1f;
+  --brand-primary-hover:  #3b8c2d;
+  --brand-light:          #eaf4e8;
+  --brand-accent:         #a0e050;
+
+  --status-normal:    #16a34a;
+  --status-watch:     #d97706;
+  --status-attention: #dc2626;
+
+  --sidebar-width: 220px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.10);
+  --radius-card: 0.75rem;
 }
 
-[data-theme='light'] {
-  --bg-base: #f0f4f0;
-  --bg-panel: rgba(255, 255, 255, 0.85);
-  --bg-card: rgba(255, 255, 255, 0.65);
-  --bg-input: rgba(0, 0, 0, 0.05);
-  --bg-glass-strong: rgba(255, 255, 255, 0.8);
-  --bg-glass-heavy: rgba(255, 255, 255, 0.9);
-  --bg-header: rgba(240, 244, 240, 0.85);
+[data-theme='dark'] {
+  /* ── Dark theme ────────────────────────────────────────────────────────── */
+  --bg-base:          #050c05;
+  --bg-panel:         rgba(20, 30, 22, 0.85);
+  --bg-card:          rgba(255, 255, 255, 0.04);
+  --bg-input:         rgba(0, 0, 0, 0.2);
+  --bg-glass-strong:  rgba(0, 0, 0, 0.4);
+  --bg-glass-heavy:   rgba(0, 0, 0, 0.5);
+  --bg-header:        rgba(5, 12, 5, 0.85);
 
-  --text-primary: #0a110a;
-  --text-secondary: rgba(0, 0, 0, 0.85);
-  --text-muted: rgba(0, 0, 0, 0.65);
-  
-  --border-subtle: rgba(0, 0, 0, 0.1);
-  --border-very-subtle: rgba(0, 0, 0, 0.05);
-  --border-brand-subtle: rgba(42, 110, 31, 0.2);
-  
-  --brand-primary: #2a6e1f;
-  --brand-primary-hover: #3b8c2d;
+  --text-primary:     #f0f4f0;
+  --text-secondary:   rgba(255, 255, 255, 0.75);
+  --text-muted:       rgba(255, 255, 255, 0.5);
+  --text-faint:       rgba(255, 255, 255, 0.3);
 
-  --status-normal: #16a34a;
-  --status-watch: #d97706;
-  --status-attention: #dc2626;
+  --border-subtle:        rgba(255, 255, 255, 0.1);
+  --border-very-subtle:   rgba(255, 255, 255, 0.05);
+  --border-brand-subtle:  rgba(160, 224, 80, 0.15);
+
+  --brand-primary:        #a0e050;
+  --brand-primary-hover:  #b4f064;
+  --brand-light:          rgba(160, 224, 80, 0.1);
+  --brand-accent:         #a0e050;
+
+  --status-normal:    #4ade80;
+  --status-watch:     #fbbf24;
+  --status-attention: #f87171;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 body {
   background-color: var(--bg-base);
   color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Bengali", "Noto Sans Devanagari", "Noto Sans Kannada", "Noto Sans Malayalam", "Noto Sans Odia", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Noto Sans Arabic", sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 /* ─── Keyframes ────────────────────────────────────────────────────────── */

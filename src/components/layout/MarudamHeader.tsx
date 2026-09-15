@@ -61,10 +61,10 @@ export default function MarudamHeader({
       <div style={{ display:'flex', alignItems:'center', gap:'2rem' }}>
         <MarudamLogo size={32} showWordmark wordmarkStyle={{ fontSize:'1.2rem', fontWeight:800, letterSpacing:'0.05em' }} />
         <nav style={{ display:'flex', gap:'1.5rem', alignItems:'center', flexWrap:'wrap' }}>
-           <span onClick={() => handleScrollTo('top')} style={navItemStyle(activeRoute === 'dashboard')}>{t.dashboard.navDashboard}</span>
-           <span onClick={() => handleScrollTo('section-field')} style={navItemStyle(false)}>{t.dashboard.navField}</span>
-           <span onClick={() => handleScrollTo('section-sensors')} style={navItemStyle(false)}>{t.dashboard.navSensors}</span>
-           <span onClick={() => handleScrollTo('section-insights')} style={navItemStyle(false)}>{t.dashboard.navInsights}</span>
+           <span onClick={() => handleScrollTo('top')} style={navItemStyle(activeRoute === 'dashboard')}>{t.nav.dashboard}</span>
+           <span onClick={() => handleScrollTo('section-field')} style={navItemStyle(false)}>{t.nav.farm}</span>
+           <span onClick={() => handleScrollTo('section-sensors')} style={navItemStyle(false)}>{t.nav.sensors}</span>
+           <span onClick={() => handleScrollTo('section-insights')} style={navItemStyle(false)}>{t.nav.aiInsights}</span>
            <span onClick={() => router.push('/settings')} style={navItemStyle(activeRoute === 'settings')}>{t.settings.title}</span>
            <span onClick={() => router.push('/help')} style={navItemStyle(activeRoute === 'help')}>{t.helpCenter.title}</span>
         </nav>
@@ -75,13 +75,13 @@ export default function MarudamHeader({
           <MarudamSelect
             value={language}
             onChange={val => onLanguageChange(val as Language)}
-            options={(['English','Hindi','Tamil','Telugu','Kannada'] as Language[]).map(l => ({value: l, label: l}))}
+            options={(['English', 'Hindi', 'Bengali', 'Telugu', 'Marathi', 'Tamil', 'Gujarati', 'Urdu', 'Kannada', 'Odia', 'Malayalam', 'Punjabi', 'Assamese', 'Maithili', 'Sanskrit', 'Konkani', 'Manipuri', 'Kashmiri', 'Nepali', 'Sindhi', 'Dogri', 'Santali'] as Language[]).map(l => ({value: l, label: l}))}
             style={{ background: 'transparent', border: 'none' }}
           />
         </div>
         
         <button id="dashboard-logout" onClick={onLogout} style={{ background:'transparent', border:'1px solid var(--border-subtle)', color:'var(--text-secondary)', borderRadius:'9999px', padding:'0.4rem 1rem', fontSize:'0.85rem', cursor:'pointer', fontWeight:500, transition:'background 0.2s' }}>
-          {t.dashboard.logout}
+          {t.nav.logout}
         </button>
       </div>
     </header>

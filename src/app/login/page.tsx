@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 import MarudamLogo from '@/components/brand/MarudamLogo';
+import { type Language, getTranslations } from '@/lib/i18n/translations';
 
 export default function LoginPage() {
   const router   = useRouter();
@@ -11,13 +12,28 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [loading,  setLoading]  = useState(false);
   const [error,    setError]    = useState<string | null>(null);
+  const [language, setLanguage] = useState<Language>('English');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('marudam-lang');
+      if (stored) setLanguage(stored as Language);
+    }
+  }, []);
+
+  useEffect(() => {
+    const rtlLangs = ['Urdu', 'Kashmiri', 'Sindhi'];
+    document.documentElement.dir = rtlLangs.includes(language) ? 'rtl' : 'ltr';
+  }, [language]);
+
+  const t = useMemo(() => getTranslations(language), [language]);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError(null);
 
-    if (!email.trim()) { setError('Email is required.'); return; }
-    if (!password)     { setError('Password is required.'); return; }
+    if (!email.trim()) { setError(t.login.errorEmailRequired); return; }
+    if (!password)     { setError(t.login.errorPasswordRequired); return; }
 
     setLoading(true);
     const supabase = createClient();
@@ -27,15 +43,15 @@ export default function LoginPage() {
     if (authError) {
       setError(
         authError.message.includes('Invalid login credentials')
-          ? 'Incorrect email or password.'
-          : 'Sign in failed. Please try again.'
+          ? t.login.errorInvalidCredentials
+          : t.login.errorGeneral
       );
       return;
     }
     router.push('/dashboard');
   };
 
-  /* ── style helpers ─────────────────────────────────────────────────── */
+  /* â”€â”€ style helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   const fieldStyle: React.CSSProperties = {
     width: '100%',
     background: 'var(--border-very-subtle)',
@@ -81,12 +97,12 @@ export default function LoginPage() {
       <button
         id="login-back-btn"
         onClick={() => router.push('/')}
-        aria-label="Back to home"
+        aria-label={t.login.backToHome}
         style={{position:'fixed',top:'1.25rem',left:'1.25rem',background:'var(--border-very-subtle)',border:'1px solid rgba(255,255,255,0.10)',color:'rgba(255,255,255,0.65)',padding:'0.48rem 1rem',borderRadius:'9999px',fontSize:'0.82rem',cursor:'pointer',display:'inline-flex',alignItems:'center',gap:'0.38rem',transition:'background 0.2s',backdropFilter:'blur(8px)',zIndex:10}}
         onMouseEnter={e=>{e.currentTarget.style.background='rgba(255,255,255,0.11)';e.currentTarget.style.color='var(--text-primary)';}}
         onMouseLeave={e=>{e.currentTarget.style.background='var(--border-very-subtle)';e.currentTarget.style.color='rgba(255,255,255,0.65)';}}
       >
-        ← Back
+        ← {t.login.backToHome}
       </button>
 
       {/* Login card */}
@@ -98,10 +114,10 @@ export default function LoginPage() {
         </div>
 
         <h1 style={{color:'var(--text-primary)',fontSize:'1.6rem',fontWeight:700,margin:'0 0 0.35rem 0',letterSpacing:'-0.02em'}}>
-          Welcome back
+          {t.login.welcome}
         </h1>
         <p style={{color:'rgba(255,255,255,0.48)',fontSize:'0.88rem',margin:'0 0 2rem 0'}}>
-          Sign in to your farm dashboard
+          {t.login.subtitle}
         </p>
 
         {/* Error */}
@@ -115,7 +131,7 @@ export default function LoginPage() {
           {/* Email */}
           <div style={{marginBottom:'1rem'}}>
             <label htmlFor="login-email" style={{display:'block',color:'rgba(255,255,255,0.68)',fontSize:'0.82rem',fontWeight:500,marginBottom:'0.4rem'}}>
-              Email address
+              {t.login.email}
             </label>
             <input id="login-email" type="email" value={email}
               onChange={e=>setEmail(e.target.value)}
@@ -127,10 +143,10 @@ export default function LoginPage() {
           <div style={{marginBottom:'1.75rem'}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:'0.4rem'}}>
               <label htmlFor="login-password" style={{color:'rgba(255,255,255,0.68)',fontSize:'0.82rem',fontWeight:500}}>
-                Password
+                {t.login.password}
               </label>
               <a href="#" style={{color:'var(--brand-primary)',fontSize:'0.78rem',textDecoration:'none'}}>
-                Forgot password?
+                {t.login.forgotPassword}
               </a>
             </div>
             <input id="login-password" type="password" value={password}
@@ -145,14 +161,14 @@ export default function LoginPage() {
             onMouseEnter={e=>{if(!loading)e.currentTarget.style.transform='translateY(-1px)';}}
             onMouseLeave={e=>{e.currentTarget.style.transform='';}}
           >
-            {loading ? 'Signing in…' : 'Sign in'}
+            {loading ? t.login.signingIn : t.login.signIn}
           </button>
         </form>
 
         <p style={{textAlign:'center',color:'rgba(255,255,255,0.38)',fontSize:'0.82rem',marginTop:'1.5rem',marginBottom:0}}>
-          Don&apos;t have an account?{' '}
+          {t.login.noAccount}{' '}
           <a href="/register" style={{color:'rgba(160,224,80,0.82)',textDecoration:'none',fontWeight:600}}>
-            Create account
+            {t.login.createAccount}
           </a>
         </p>
       </div>

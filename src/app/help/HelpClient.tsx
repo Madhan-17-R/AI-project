@@ -48,7 +48,7 @@ export default function HelpClient() {
   };
 
   if (loading) {
-    return <div style={{minHeight:'100svh', background:'var(--bg-base)', display:'flex', alignItems:'center', justifyContent:'center', color:'var(--text-muted)'}}>Loading...</div>;
+    return <div style={{minHeight:'100svh', background:'var(--bg-base)', display:'flex', alignItems:'center', justifyContent:'center', color:'var(--text-muted)'}}>{t.common.loading}</div>;
   }
 
   // Common styles for the Help Center
@@ -93,7 +93,7 @@ export default function HelpClient() {
         
         <div>
           <h1 style={{ fontSize:'2.5rem', fontWeight:800, margin:'0 0 0.5rem 0', color:'var(--text-primary)' }}>{t.helpCenter.title}</h1>
-          <p style={{ color:'var(--text-muted)', margin:0 }}>Your comprehensive guide to using Marudam.</p>
+          <p style={{ color:'var(--text-muted)', margin:0 }}>Your comprehensive guide to using the Marudam system.</p>
         </div>
 
         {/* GETTING STARTED */}
@@ -123,23 +123,23 @@ export default function HelpClient() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginTop: '0.5rem' }}>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <h4 style={{ margin:'0 0 0.25rem 0', color:'#4ade80' }}>{t.helpCenter.soilMoisture}</h4>
-              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Measures the water content at the root zone.</p>
+              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Measures the volumetric water content in the soil.</p>
             </div>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <h4 style={{ margin:'0 0 0.25rem 0', color:'#4ade80' }}>{t.helpCenter.soilTemp}</h4>
-              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Monitors root environment for optimal growth.</p>
+              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Monitors root zone temperature for crop health.</p>
             </div>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <h4 style={{ margin:'0 0 0.25rem 0', color:'#4ade80' }}>{t.helpCenter.lightIntensity}</h4>
-              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Tracks sunlight exposure for photosynthesis.</p>
+              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Measures sunlight available for photosynthesis.</p>
             </div>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <h4 style={{ margin:'0 0 0.25rem 0', color:'#4ade80' }}>{t.helpCenter.airHumidity}</h4>
-              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Helps detect conditions favorable for diseases.</p>
+              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Tracks moisture in the air to predict disease risk.</p>
             </div>
             <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.5rem' }}>
               <h4 style={{ margin:'0 0 0.25rem 0', color:'#4ade80' }}>{t.helpCenter.surroundingTemp}</h4>
-              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Tracks general weather stress on the crop canopy.</p>
+              <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)' }}>Ambient temperature affecting crop growth and evaporation.</p>
             </div>
           </div>
         </section>

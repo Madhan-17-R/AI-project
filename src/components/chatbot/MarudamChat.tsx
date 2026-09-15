@@ -125,7 +125,7 @@ export default function MarudamChat({ language, fieldContext }: MarudamChatProps
             <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'1rem 1.25rem',borderBottom:'1px solid rgba(255,255,255,0.07)'}}>
               <div style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
                 <MarudamLogo size={24} />
-                <span style={{color:'var(--text-primary)',fontWeight:700,fontSize:'1rem'}}>Marudam AI</span>
+                <span style={{color:'var(--text-primary)',fontWeight:700,fontSize:'1rem'}}>{t.chat.title}</span>
               </div>
               <div style={{display:'flex',alignItems:'center',gap:'0.75rem'}}>
                 <span style={{fontSize:'0.7rem',color:'rgba(160,224,80,0.7)',background:'rgba(160,224,80,0.08)',border:'1px solid rgba(160,224,80,0.18)',borderRadius:'9999px',padding:'0.25rem 0.6rem'}}>

@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 import MarudamLogo from '@/components/brand/MarudamLogo';
-import MarudamHeader from '@/components/layout/MarudamHeader';
+import AppShell from '@/components/layout/AppShell';
 import MarudamChat from '@/components/chatbot/MarudamChat';
 
 import {
@@ -439,342 +439,243 @@ export default function DashboardPage() {
   const cloudConnected = cloudDevice?.status === 'CONNECTED';
   const effectiveDeviceStatus = dataSource === 'local' ? deviceStatus : (cloudDevice?.status ?? 'UNKNOWN');
 
+
   return (
-    <div style={{ minHeight:'100svh', background:'var(--bg-base)', color:'var(--text-primary)', display:'flex', flexDirection:'column', fontFamily:'system-ui, -apple-system, sans-serif' }}>
-      
-      {/* ════════════════════════════════ HEADER ════════════════════════════ */}
-      <MarudamHeader 
-        activeRoute="dashboard" 
-        language={language} 
-        onLanguageChange={handleLanguageChange} 
-        onLogout={handleLogout} 
-      />
+    <AppShell
+      activeRoute="/dashboard"
+      language={language}
+      onLanguageChange={handleLanguageChange}
+      onLogout={handleLogout}
+      pageTitle={t.dashboard?.title || 'Dashboard'}
+      farmContext={farmProfile ? {
+        cropName: getCropName(cropId, language),
+        district: farmProfile.district,
+        state: farmProfile.state,
+        deviceId: farmProfile.device_id,
+        growthStage: getCropStageName(cropId, stageId, language),
+      } : undefined}
+    >
+      <div style={{
+        padding: '1.5rem 2rem 2rem',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1.5rem',
+        position: 'relative',
+        minHeight: '100%',
+        backgroundImage: "linear-gradient(rgba(5, 16, 6, 0.76), rgba(5, 16, 6, 0.86)), url('/farm_bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+      }}>
 
-      {/* ════════════════════════════════ BODY ══════════════════════════════ */}
-      <main style={{ flex:1, padding:'clamp(1.5rem, 5vw, 3rem)', maxWidth:'1200px', margin:'0 auto', width:'100%', display:'flex', flexDirection:'column', gap:'2rem' }}>
+        {/* â”€â”€ TWO-COLUMN GRID â”€â”€ */}
+        <div style={{ display:'grid', gridTemplateColumns:'minmax(0,2fr) minmax(0,1fr)', gap:'1.5rem', alignItems:'start' }}>
 
-        {/* HERO / WELCOME */}
-        <section id="section-field" style={{ position:'relative', padding:'clamp(1.5rem, 4vw, 2.5rem)', borderRadius:'1.5rem', overflow:'hidden', display:'flex', flexDirection:'column', minHeight:'340px', border:'1px solid var(--border-brand-subtle)', boxShadow:'0 20px 40px var(--bg-glass-strong)' }}>
-           {/* Background Image with Dark Forest Overlay */}
-           <div style={{ position:'absolute', top:0, left:0, width:'100%', height:'100%', backgroundImage:'url("/farm_bg.jpg")', backgroundSize:'cover', backgroundPosition:'center', zIndex:0 }} />
-           <div style={{ position:'absolute', top:0, left:0, width:'100%', height:'100%', background:'linear-gradient(135deg, rgba(10,23,11,0.85) 0%, rgba(5,12,5,0.95) 100%)', zIndex:0 }} />
-           
-           <div style={{ position:'relative', zIndex:1, display:'flex', flexDirection:'column', gap:'2rem', height:'100%', justifyContent:'space-between' }}>
-             
-             {/* TOP ROW: Welcome & Farm Info */}
-             <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', flexWrap:'wrap', gap:'1.5rem' }}>
-               <div>
-                 <h1 style={{ margin:0, fontSize:'clamp(1.8rem, 4vw, 2.2rem)', fontWeight:800, color:'#f8f9fa', letterSpacing:'-0.02em' }}>
-                   {t.dashboard.welcomeMorning}, {farmerName || t.dashboard.farmerName} 🌱
-                 </h1>
-                 <p style={{ margin:'0.5rem 0 0 0', fontSize:'1.05rem', color:'rgba(255,255,255,0.8)', fontWeight:400, maxWidth:'600px', lineHeight:1.5 }}>
-                   {t.dashboard.monitoringMsg.replace('{crop}', getCropName(cropId, language)).replace('{district}', locationInfo?.district || t.dashboard.district)}
-                 </p>
-               </div>
-               
-               <div style={{ display:'flex', gap:'1rem', flexWrap:'wrap' }}>
-                 <div style={{ background:'rgba(0,0,0,0.4)', backdropFilter:'blur(8px)', WebkitBackdropFilter:'blur(8px)', padding:'0.6rem 1.2rem', borderRadius:'0.75rem', border:'1px solid rgba(255,255,255,0.08)' }}>
-                   <span style={{ display:'block', fontSize:'0.7rem', color:'rgba(255,255,255,0.5)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:'0.2rem' }}>{t.dashboard.growthStage}</span>
-                   <span style={{ fontSize:'0.95rem', fontWeight:600, color:'white' }}>{getCropStageName(cropId, stageId, language)}</span>
-                 </div>
-                 <div style={{ background:'rgba(0,0,0,0.4)', backdropFilter:'blur(8px)', WebkitBackdropFilter:'blur(8px)', padding:'0.6rem 1.2rem', borderRadius:'0.75rem', border:'1px solid rgba(255,255,255,0.08)' }}>
-                   <span style={{ display:'block', fontSize:'0.7rem', color:'rgba(255,255,255,0.5)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:'0.2rem' }}>{t.dashboard.plantedLabel}</span>
-                   <span style={{ fontSize:'0.95rem', fontWeight:600, color:'white' }}>{sowingDate || t.dashboard.notSet}</span>
-                 </div>
-                 <div style={{ background:'rgba(0,0,0,0.4)', backdropFilter:'blur(8px)', WebkitBackdropFilter:'blur(8px)', padding:'0.6rem 1.2rem', borderRadius:'0.75rem', border:'1px solid rgba(255,255,255,0.08)' }}>
-                   <span style={{ display:'block', fontSize:'0.7rem', color:'rgba(255,255,255,0.5)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:'0.2rem' }}>{t.dashboard.deviceStatus}</span>
-                   <span style={{ fontSize:'0.95rem', fontWeight:600, display:'flex', alignItems:'center', gap:'0.4rem', color: DEVICE_COLOR[deviceStatus] || '#94a3b8' }}>
-                     <span style={{ width:8, height:8, borderRadius:'50%', background: DEVICE_COLOR[deviceStatus] || '#94a3b8', boxShadow: deviceStatus==='ONLINE' ? `0 0 8px ${DEVICE_COLOR.ONLINE}` : 'none' }} />
-                     {t.dashboard[`device${deviceStatus.charAt(0)+deviceStatus.slice(1).toLowerCase()}` as keyof typeof t.dashboard] ?? deviceStatus}
-                   </span>
-                 </div>
-               </div>
-             </div>
+          {/* LEFT: Live Sensors */}
+          <div id="section-sensors" style={{ display:'flex', flexDirection:'column', gap:'1rem' }}>
+            <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+              <h2 style={{ margin:0, fontSize:'1rem', fontWeight:700, color:'var(--text-primary)', letterSpacing:'-0.01em' }}>Live Sensors</h2>
+              {sensorAge > 0 && <span style={{ fontSize:'0.75rem', color:'var(--text-muted)' }}>{t.dashboard.updatedLabel} {formatSensorAge(sensorAge)}</span>}
+            </div>
 
-             {/* BOTTOM ROW: Field Health & Recommendation */}
-             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(280px, 1fr))', gap:'1.5rem', marginTop:'auto' }}>
-               
-               {/* Field Health */}
-               <div style={{ background:'rgba(0,0,0,0.5)', backdropFilter:'blur(12px)', WebkitBackdropFilter:'blur(12px)', border:`1px solid ${STATUS_BORDER[fieldStatus] || 'rgba(255,255,255,0.1)'}`, borderRadius:'1rem', padding:'1.25rem', display:'flex', alignItems:'center', gap:'1.25rem', boxShadow:'0 10px 25px rgba(0,0,0,0.3)' }}>
-                 <div style={{ position:'relative', width:'64px', height:'64px', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
-                   <svg width="64" height="64" viewBox="0 0 120 120" style={{ position:'absolute', top:0, left:0, transform:'rotate(-90deg)' }}>
-                     <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="8" />
-                     <circle cx="60" cy="60" r="54" fill="none" stroke={STATUS_DOT[fieldStatus] || '#94a3b8'} strokeWidth="8" strokeDasharray="339" strokeDashoffset={fieldStatus === 'NORMAL' ? 0 : fieldStatus === 'WATCH' ? 100 : 200} style={{ transition:'stroke-dashoffset 1.5s ease-in-out' }} />
-                   </svg>
-                 </div>
-                 <div style={{ display:'flex', flexDirection:'column' }}>
-                   <span style={{ fontSize:'0.75rem', fontWeight:700, letterSpacing:'0.1em', color:'rgba(255,255,255,0.6)', textTransform:'uppercase', marginBottom:'0.25rem' }}>{t.dashboard.fieldHealthTitle}</span>
-                   <span style={{ fontSize:'1.4rem', fontWeight:800, color: STATUS_TEXT[fieldStatus] || '#94a3b8', lineHeight:1.2 }}>
-                     {t.dashboard[`fieldStatus${fieldStatus.charAt(0)+fieldStatus.slice(1).toLowerCase()}` as keyof typeof t.dashboard] ?? fieldStatus}
-                   </span>
-                 </div>
-               </div>
-
-               {/* Recommendation */}
-               <div style={{ background:'rgba(0,0,0,0.5)', backdropFilter:'blur(12px)', WebkitBackdropFilter:'blur(12px)', border:'1px solid rgba(160,224,80,0.3)', borderRadius:'1rem', padding:'1.25rem', display:'flex', flexDirection:'column', justifyContent:'center', boxShadow:'0 10px 25px rgba(0,0,0,0.3)' }}>
-                 <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.4rem' }}>
-                   <span style={{ fontSize:'0.75rem', fontWeight:700, letterSpacing:'0.1em', color:'#a0e050', textTransform:'uppercase' }}>{t.dashboard.recommendationTitleUpper}</span>
-                   {decision?.confidence && <span style={{ fontSize:'0.75rem', color:'rgba(255,255,255,0.6)', background:'rgba(255,255,255,0.1)', padding:'0.2rem 0.5rem', borderRadius:'999px' }}>{Math.round(decision.confidence * 100)}% {t.helpCenter.confidence}</span>}
-                 </div>
-                 {decision ? (
-                   <div style={{ display:'flex', flexDirection:'column', gap:'0.75rem' }}>
-                     <span style={{ fontSize:'1.2rem', fontWeight:700, color:'white', lineHeight:1.3 }}>{translateRecommendation(recAction, language)}</span>
-                     <div style={{ background:'rgba(0,0,0,0.3)', padding:'0.75rem', borderRadius:'0.5rem', border:'1px solid rgba(255,255,255,0.05)' }}>
-                       <span style={{ display:'block', fontSize:'0.7rem', color:'rgba(255,255,255,0.5)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:'0.4rem' }}>{t.dashboard.reason}</span>
-                       <ul style={{ margin:0, padding:'0 0 0 1rem', color:'rgba(255,255,255,0.7)', fontSize:'0.85rem', lineHeight:1.4, display:'flex', flexDirection:'column', gap:'0.2rem' }}>
-                         {decision.evidence_summary.map((ev, i) => (
-                           <li key={i}>{translateEvidence(ev.code, language, ev.value)}</li>
-                         ))}
-                       </ul>
-                     </div>
-                   </div>
-                 ) : (
-                   <span style={{ color:'rgba(255,255,255,0.5)', fontSize:'1rem' }}>{t.dashboard.waitingForEsp || t.dashboard.awaitingData}</span>
-                 )}
-               </div>
-
-             </div>
-           </div>
-        </section>
-
-        {/* TWO COLUMN LAYOUT: LEFT (MAIN) / RIGHT (SIDEBAR) */}
-        <div style={{ display:'grid', gridTemplateColumns:'minmax(0, 2fr) minmax(0, 1fr)', gap:'2rem', alignItems:'start' }}>
-          
-          {/* LEFT COLUMN */}
-          <div style={{ display:'flex', flexDirection:'column', gap:'2rem' }}>
-            
-            {/* LIVE SENSORS */}
-            <div id="section-sensors">
-              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'1rem' }}>
-                <span style={{ fontSize:'1.1rem', fontWeight:700, color:'var(--text-primary)' }}>Live Field {t.dashboard.navSensors}</span>
-                {sensorAge > 0 && <span style={{ fontSize:'0.8rem', color:'var(--text-muted)' }}>{t.dashboard.updatedLabel} {formatSensorAge(sensorAge)}</span>}
-              </div>
-
-              {!isEspConnected ? (
-                <div style={{ background:'var(--bg-card)', border:'1px dashed var(--border-subtle)', borderRadius:'1.25rem', padding:'3rem', textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:'1rem' }}>
-                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-                    <rect x="9" y="9" width="6" height="6"></rect>
-                    <line x1="9" y1="1" x2="9" y2="4"></line>
-                    <line x1="15" y1="1" x2="15" y2="4"></line>
-                    <line x1="9" y1="20" x2="9" y2="23"></line>
-                    <line x1="15" y1="20" x2="15" y2="23"></line>
-                    <line x1="20" y1="9" x2="23" y2="9"></line>
-                    <line x1="20" y1="14" x2="23" y2="14"></line>
-                    <line x1="1" y1="9" x2="4" y2="9"></line>
-                    <line x1="1" y1="14" x2="4" y2="14"></line>
+            {!isEspConnected ? (
+              <div style={{ background:'rgba(255,255,255,0.06)', border:'1.5px dashed rgba(255,255,255,0.2)', borderRadius:'var(--radius-card)', padding:'3rem 2rem', textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:'1rem', boxShadow:'var(--shadow-card)', backdropFilter:'blur(4px)' }}>
+                <div style={{ width:52, height:52, borderRadius:'50%', background:'rgba(168,224,96,0.18)', border:'1px solid rgba(168,224,96,0.35)', display:'flex', alignItems:'center', justifyContent:'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a8e060" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect>
+                    <line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line>
+                    <line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line>
+                    <line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line>
+                    <line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line>
                   </svg>
-                  <div>
-                    <h3 style={{ margin:'0 0 0.5rem 0', fontSize:'1.1rem', fontWeight:600, color:'var(--text-primary)' }}>{t.dashboard.waitingEsp32Title}</h3>
-                    <p style={{ margin:0, fontSize:'0.9rem', color:'var(--text-muted)', maxWidth:'400px' }}>{t.dashboard.waitingEsp32Desc}</p>
-                  </div>
                 </div>
-              ) : (
-                <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))', gap:'1rem' }}>
-                  {(['soil_moisture','soil_temperature','soil_ph','soil_ec','air_temperature','humidity','light_lux'] as const).map(key => {
-                    const val = sensorData[key];
-                    const stat = sensorStatus(key, val);
-                    const r = sensorRange(key);
-                    const col = stat === 'below' ? '#60a5fa' : stat === 'above' ? '#f97316' : '#4ade80';
-                    const isMoisture = key === 'soil_moisture';
-                    const isHeat = key.includes('temperature');
-                    const isLight = key === 'light_lux';
-                    const isHumid = key === 'humidity';
-                    const isPh    = key === 'soil_ph';
-                    const isEc    = key === 'soil_ec';
-                    
-                    return (
-                      <div key={key} onClick={() => setDetailsOpen(true)} style={{ background:'var(--bg-panel)', border:`1px solid var(--border-very-subtle)`, borderRadius:'1.25rem', padding:'1.5rem', cursor:'pointer', position:'relative', overflow:'hidden', transition:'transform 0.2s, background 0.2s', display:'flex', flexDirection:'column' }}>
-                        {/* Subtle background glow based on status */}
-                        <div style={{ position:'absolute', top:0, right:0, width:'100%', height:'100%', background:`radial-gradient(circle at top right, ${col}10, transparent 60%)`, pointerEvents:'none' }} />
-                        
-                        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:'1.5rem' }}>
-                          <span style={{ fontSize:'0.85rem', fontWeight:600, color:'var(--text-secondary)', maxWidth:'70%' }}>{sensorLabel(key)}</span>
-                          
-                          {/* Icons */}
-                          {isMoisture && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>}
-                          {isHeat && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>}
-                          {isLight && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>}
-                          {isHumid && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path><path d="M12 22a8 8 0 0 0 8-8c0-3.5-3.5-7-8-11-4.5 4-8 7.5-8 11a8 8 0 0 0 8 8z" fill={col} fillOpacity="0.2"></path></svg>}
-                          {(isPh || isEc) && <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line><line x1="12" y1="8" x2="12" y2="16"></line></svg>}
-                        </div>
-
-                        <div>
-                          <div style={{ display:'flex', alignItems:'baseline', gap:'0.25rem' }}>
-                            <span style={{ fontSize:'2rem', fontWeight:800, color: val == null ? 'var(--text-muted)' : 'var(--text-primary)', lineHeight:1 }}>{val != null ? (isLight ? Math.round(val).toLocaleString() : isPh ? val.toFixed(1) : isEc ? val.toFixed(2) : val.toFixed(1)) : '--'}</span>
-                            <span style={{ fontSize:'0.9rem', color:'var(--text-muted)', fontWeight:500 }}>{sensorUnit(key)}</span>
-                          </div>
-                          
-                          <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginTop:'0.5rem' }}>
-                            <span style={{ fontSize:'0.8rem', fontWeight:600, color: col }}>
-                              {stat === 'below' ? t.dashboard.statusLow : stat === 'above' ? t.dashboard.statusHigh : t.dashboard.statusOptimal}
-                            </span>
-                            <span style={{ width:4, height:4, borderRadius:'50%', background:'rgba(255,255,255,0.2)' }} />
-                            <span style={{ fontSize:'0.75rem', color:'var(--text-muted)' }}>
-                              {t.dashboard.expLabel}: {r.lo.toFixed(0)}–{r.hi.toFixed(0)}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
+                <div>
+                  <h3 style={{ margin:'0 0 0.375rem 0', fontSize:'1rem', fontWeight:600, color:'#ffffff' }}>{t.dashboard.waitingEsp32Title}</h3>
+                  <p style={{ margin:0, fontSize:'0.875rem', color:'rgba(255,255,255,0.8)', maxWidth:'360px', lineHeight:1.5 }}>{t.dashboard.waitingEsp32Desc}</p>
                 </div>
-              )}
-            </div>
-
-            {/* LEARNING / ADAPTIVE BASELINE */}
-            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-very-subtle)', borderRadius:'1.5rem', padding:'2rem', display:'flex', flexDirection:'column' }}>
-              <span style={{ fontSize:'0.8rem', fontWeight:700, letterSpacing:'0.15em', color:'var(--text-muted)', textTransform:'uppercase', marginBottom:'1.5rem' }}>{t.dashboard.learningUpper}</span>
-              <p style={{ margin:'0 0 1.5rem 0', color:'var(--text-secondary)', fontSize:'1rem', lineHeight:1.5, maxWidth:'700px' }}>
-                {t.dashboard.learningDescLong}
-              </p>
-              
-              {adaptiveBaseline ? (
-                <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(250px, 1fr))', gap:'1.5rem' }}>
-                  {Object.entries(adaptiveBaseline).slice(0,3).map(([key, b]) => {
-                    const pct = Math.min(100, Math.max(0, Math.round(b.confidence * 100)));
-                    return (
-                      <div key={key} style={{ background:'var(--bg-input)', padding:'1.25rem', borderRadius:'1rem', border:'1px solid rgba(255,255,255,0.04)' }}>
-                        <div style={{ display:'flex', justifyContent:'space-between', marginBottom:'0.75rem' }}>
-                          <span style={{ fontSize:'0.85rem', color:'var(--text-primary)', fontWeight:500 }}>{sensorLabel(key)}</span>
-                          <span style={{ fontSize:'0.8rem', color:'var(--brand-primary)', fontWeight:600 }}>{pct}% {t.dashboard.confidence_label}</span>
-                        </div>
-                        <div style={{ background:'var(--border-very-subtle)', borderRadius:9999, height:6, marginBottom:'0.75rem', overflow:'hidden' }}>
-                          <div style={{ height:'100%', borderRadius:9999, width:`${pct}%`, background:`linear-gradient(90deg, rgba(160,224,80,0.5), var(--brand-primary))`, transition:'width 1s ease-in-out' }} />
-                        </div>
-                        <div style={{ display:'flex', justifyContent:'space-between', fontSize:'0.75rem', color:'var(--text-muted)' }}>
-                          <span>{b.observations_count} {t.dashboard.readingsCount}</span>
-                          <span>{t.dashboard.rangeLabel}: {b.min_expected.toFixed(1)}–{b.max_expected.toFixed(1)}</span>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              ) : (
-                <div style={{ background:'rgba(160,224,80,0.05)', padding:'1.5rem', borderRadius:'1rem', border:'1px dashed var(--border-brand-subtle)', color:'var(--brand-primary)' }}>
-                  {t.dashboard.initialLearningActive}
-                </div>
-              )}
-            </div>
-            
-          </div>
-
-          {/* RIGHT COLUMN (SIDEBAR) */}
-          <div id="section-insights" style={{ display:'flex', flexDirection:'column', gap:'2rem' }}>
-            
-            {/* WEATHER */}
-            <div style={{ background:'rgba(20,30,35,0.6)', border:'1px solid var(--border-very-subtle)', borderRadius:'1.5rem', padding:'1.75rem' }}>
-              <span style={{ fontSize:'0.8rem', fontWeight:700, letterSpacing:'0.15em', color:'var(--text-muted)', textTransform:'uppercase', marginBottom:'1rem', display:'block' }}>{t.dashboard.weatherContextTitle}</span>
-              
-              {decision?.weather?.rain_probability != null ? (
-                <>
-                  <div style={{ display:'flex', alignItems:'center', gap:'1rem', marginBottom:'1.5rem' }}>
-                    <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"></path><path d="M16 14v6"></path><path d="M8 14v6"></path><path d="M12 16v6"></path></svg>
-                    <div>
-                      <div style={{ fontSize:'2.2rem', fontWeight:800, color:'var(--text-primary)', lineHeight:1 }}>
-                        {Math.round(decision.weather.rain_probability)}<span style={{ fontSize:'1rem', color:'var(--text-muted)', fontWeight:600 }}>%</span>
-                      </div>
-                      <span style={{ fontSize:'0.85rem', color:'var(--text-secondary)' }}>{t.dashboard.rainProbability}</span>
-                    </div>
-                  </div>
-                  
-                  <div style={{ background:'var(--bg-input)', padding:'1rem', borderRadius:'0.75rem', border:'1px solid var(--border-very-subtle)' }}>
-                    <span style={{ display:'block', fontSize:'0.75rem', color:'var(--text-muted)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:'0.4rem' }}>{t.dashboard.howThisAffectsYou}</span>
-                    <p style={{ margin:0, fontSize:'0.85rem', color:'var(--text-secondary)', lineHeight:1.5 }}>
-                      {decision.weather.rain_probability > 60 ? t.dashboard.weatherHighRainDesc : t.dashboard.weatherLowRainDesc}
-                    </p>
-                  </div>
-                </>
-              ) : (
-                <p style={{ color:'var(--text-muted)', fontSize:'0.9rem' }}>{t.dashboard.weatherUnavailable}</p>
-              )}
-            </div>
-
-            {/* ROOT ZONE */}
-            <div style={{ background:'linear-gradient(180deg, rgba(40,30,20,0.4) 0%, rgba(20,15,10,0.8) 100%)', border:'1px solid var(--border-very-subtle)', borderRadius:'1.5rem', padding:'1.75rem', position:'relative', overflow:'hidden' }}>
-              <span style={{ fontSize:'0.8rem', fontWeight:700, letterSpacing:'0.15em', color:'var(--text-muted)', textTransform:'uppercase', marginBottom:'1rem', display:'block', position:'relative', zIndex:2 }}>{t.dashboard.rootZoneUpperTitle}</span>
-              
-              {/* Fake roots illustration */}
-              <svg width="100%" height="120" style={{ position:'absolute', bottom:0, left:0, opacity:0.3, zIndex:1 }} viewBox="0 0 100 50" preserveAspectRatio="none">
-                 <path d="M20,0 Q25,20 15,50 M50,0 Q55,30 65,50 M80,0 Q70,25 85,50 M35,10 Q40,30 30,50 M65,15 Q60,35 75,50" stroke="#8b5a2b" fill="none" strokeWidth="1" />
-              </svg>
-
-              <div style={{ position:'relative', zIndex:2 }}>
-                {decision?.root_zone ? (
-                  <>
-                    <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', marginBottom:'0.75rem' }}>
-                      <span style={{ fontSize:'1.6rem', fontWeight:800, color: decision.root_zone.moisture_state === 'LOW' ? '#60a5fa' : decision.root_zone.moisture_state === 'HIGH' ? '#f97316' : 'var(--brand-primary)' }}>
-                        {t.dashboard[`rootZone${decision.root_zone.moisture_state.charAt(0)+decision.root_zone.moisture_state.slice(1).toLowerCase()}` as keyof typeof t.dashboard] ?? decision.root_zone.moisture_state}
-                      </span>
-                    </div>
-                    <p style={{ margin:0, fontSize:'0.9rem', color:'var(--text-secondary)', lineHeight:1.5 }}>
-                      {decision.root_zone.moisture_state === 'LOW' ? t.dashboard.rootZoneLowDesc :
-                       decision.root_zone.moisture_state === 'HIGH' ? t.dashboard.rootZoneHighDesc :
-                       t.dashboard.rootZoneNormalDesc}
-                    </p>
-                    <span style={{ display:'block', marginTop:'0.75rem', fontSize:'0.75rem', color:'var(--text-muted)' }}>{t.dashboard.aiEstimated} • {Math.round(decision.root_zone.confidence * 100)}% {t.dashboard.confidence_label}</span>
-                  </>
-                ) : (
-                  <p style={{ color:'var(--text-muted)', fontSize:'0.9rem' }}>{t.dashboard.waitingRootZone}</p>
-                )}
               </div>
-            </div>
-
-            {/* TIMELINE */}
-            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-very-subtle)', borderRadius:'1.5rem', padding:'1.75rem' }}>
-              <span style={{ fontSize:'0.8rem', fontWeight:700, letterSpacing:'0.15em', color:'var(--text-muted)', textTransform:'uppercase', marginBottom:'1.5rem', display:'block' }}>{t.dashboard.fieldEventsUpper}</span>
-              
-              {events.length === 0 ? (
-                <p style={{ color:'var(--text-muted)', fontSize:'0.9rem', textAlign:'center', padding:'1rem 0' }}>{t.dashboard.noUnusualEvents}</p>
-              ) : (
-                <div style={{ display:'flex', flexDirection:'column', gap:'1.25rem', position:'relative' }}>
-                  {/* Timeline line */}
-                  <div style={{ position:'absolute', top:'10px', bottom:'10px', left:'6px', width:'2px', background:'var(--border-subtle)' }} />
-                  
-                  {events.slice(0, 4).map((ev) => {
-                    const statusColor: Record<string,string> = { NEW:'#fb923c', ONGOING:'#facc15', PERSISTENT:'#f87171', RESOLVED:'#4ade80' };
-                    const sc = statusColor[ev.status] ?? '#94a3b8';
-                    return (
-                      <div key={ev.id} style={{ display:'flex', gap:'1rem', position:'relative', zIndex:1 }}>
-                        <div style={{ width:'14px', height:'14px', borderRadius:'50%', background:'var(--bg-base)', border:`2px solid ${sc}`, marginTop:'2px', flexShrink:0 }} />
-                        <div>
-                          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.2rem' }}>
-                            <span style={{ fontSize:'0.85rem', fontWeight:600, color:'rgba(255,255,255,0.85)' }}>{sensorLabel(ev.sensor)}</span>
-                            <span style={{ fontSize:'0.7rem', color:sc, fontWeight:600, padding:'0.1rem 0.4rem', borderRadius:'4px', background:`${sc}15` }}>{ev.status}</span>
-                          </div>
-                          <span style={{ fontSize:'0.8rem', color:'var(--text-muted)', display:'block' }}>{ev.duration_minutes} {t.dashboard.durationMins} • {t.dashboard.severityLabel}: {ev.severity}</span>
+            ) : (
+              <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(155px, 1fr))', gap:'0.75rem' }}>
+                {(['soil_moisture','soil_temperature','soil_ph','soil_ec','air_temperature','humidity','light_lux'] as const).map(key => {
+                  const val = sensorData[key];
+                  const stat = sensorStatus(key, val);
+                  const r = sensorRange(key);
+                  const col = stat === 'below' ? '#3b82f6' : stat === 'above' ? '#f97316' : 'var(--status-normal)';
+                  const isMoisture = key === 'soil_moisture';
+                  const isHeat = key.includes('temperature');
+                  const isLight = key === 'light_lux';
+                  const isHumid = key === 'humidity';
+                  const isPh    = key === 'soil_ph';
+                  const isEc    = key === 'soil_ec';
+                  return (
+                    <div key={key} onClick={() => setDetailsOpen(true)} style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'0.75rem', padding:'1rem', cursor:'pointer', display:'flex', flexDirection:'column', gap:'0.625rem', boxShadow:'var(--shadow-card)', transition:'box-shadow 0.2s' }}>
+                      <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start' }}>
+                        <span style={{ fontSize:'0.74rem', fontWeight:600, color:'var(--text-muted)', lineHeight:1.3, maxWidth:'72%' }}>{sensorLabel(key)}</span>
+                        <div style={{ width:26, height:26, borderRadius:'0.375rem', background:'var(--brand-light)', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+                          {isMoisture && <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>}
+                          {isHeat && <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>}
+                          {isLight && <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line></svg>}
+                          {isHumid && <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>}
+                          {(isPh || isEc) && <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={col} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line><line x1="12" y1="8" x2="12" y2="16"></line></svg>}
                         </div>
                       </div>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* DETAILS MODAL (Hidden by default, triggered by sensor clicks) */}
-            {detailsOpen && (
-              <div style={{ position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,0.6)', backdropFilter:'blur(4px)', zIndex:100, display:'flex', alignItems:'center', justifyContent:'center', padding:'1rem' }}>
-                <div style={{ background:'#0c1a10', border:'1px solid var(--border-brand-subtle)', borderRadius:'1.5rem', padding:'2rem', width:'100%', maxWidth:'500px', boxShadow:'0 25px 50px var(--bg-glass-heavy)' }}>
-                  <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'1.5rem' }}>
-                    <h3 style={{ margin:0, fontSize:'1.25rem', color:'var(--text-primary)' }}>{t.dashboard.sensorDetailsTitle}</h3>
-                    <button onClick={() => setDetailsOpen(false)} style={{ background:'transparent', border:'none', color:'var(--text-muted)', cursor:'pointer', fontSize:'1.5rem' }}>×</button>
-                  </div>
-                  <p style={{ color:'var(--text-secondary)', fontSize:'0.95rem', lineHeight:1.5 }}>
-                    {t.dashboard.sensorDetailsDesc}
-                  </p>
-                  <button onClick={() => setDetailsOpen(false)} style={{ background:'var(--border-brand-subtle)', color:'var(--brand-primary)', border:'1px solid var(--border-brand-subtle)', borderRadius:'0.75rem', padding:'0.75rem 1.5rem', width:'100%', marginTop:'1.5rem', fontWeight:600, cursor:'pointer' }}>{t.chat.close}</button>
-                </div>
+                      <div>
+                        <div style={{ display:'flex', alignItems:'baseline', gap:'0.15rem' }}>
+                          <span style={{ fontSize:'1.45rem', fontWeight:700, color: val == null ? 'var(--text-muted)' : 'var(--text-primary)', lineHeight:1 }}>
+                            {val != null ? (isLight ? Math.round(val).toLocaleString() : isPh ? val.toFixed(1) : isEc ? val.toFixed(2) : val.toFixed(1)) : '--'}
+                          </span>
+                          <span style={{ fontSize:'0.72rem', color:'var(--text-muted)', fontWeight:500 }}>{sensorUnit(key)}</span>
+                        </div>
+                        <div style={{ display:'flex', alignItems:'center', gap:'0.3rem', marginTop:'0.2rem' }}>
+                          <span style={{ width:5, height:5, borderRadius:'50%', background:col, flexShrink:0, display:'inline-block' }} />
+                          <span style={{ fontSize:'0.68rem', fontWeight:600, color:col }}>
+                            {stat === 'below' ? t.dashboard.statusLow : stat === 'above' ? t.dashboard.statusHigh : t.dashboard.statusOptimal}
+                          </span>
+                          <span style={{ fontSize:'0.65rem', color:'var(--text-faint)' }}>Â· {r.lo.toFixed(0)}â€“{r.hi.toFixed(0)}</span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             )}
+          </div>
+
+          {/* RIGHT: AI insight cards */}
+          <div id="section-insights" style={{ display:'flex', flexDirection:'column', gap:'0.875rem' }}>
+
+
+
+            {/* AI ADAPTIVE BASELINE */}
+            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'var(--radius-card)', padding:'1rem 1.125rem', boxShadow:'var(--shadow-card)' }}>
+              <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.625rem' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--brand-primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <span style={{ fontSize:'0.7rem', fontWeight:700, letterSpacing:'0.08em', color:'var(--text-muted)', textTransform:'uppercase' }}>AI Adaptive Baseline</span>
+              </div>
+              {adaptiveBaseline ? (
+                <div style={{ display:'flex', flexDirection:'column', gap:'0.5rem' }}>
+                  {Object.entries(adaptiveBaseline).slice(0,2).map(([key, b]) => {
+                    const pct = Math.min(100, Math.max(0, Math.round(b.confidence * 100)));
+                    return (
+                      <div key={key} style={{ padding:'0.5rem 0.625rem', background:'var(--bg-base)', borderRadius:'0.5rem', border:'1px solid var(--border-very-subtle)' }}>
+                        <div style={{ display:'flex', justifyContent:'space-between', marginBottom:'0.3rem' }}>
+                          <span style={{ fontSize:'0.75rem', color:'var(--text-secondary)', fontWeight:500 }}>{sensorLabel(key)}</span>
+                          <span style={{ fontSize:'0.72rem', color:'var(--brand-primary)', fontWeight:700 }}>{pct}%</span>
+                        </div>
+                        <div style={{ background:'var(--border-subtle)', borderRadius:9999, height:4, overflow:'hidden' }}>
+                          <div style={{ height:'100%', borderRadius:9999, width:`${pct}%`, background:'var(--brand-primary)', transition:'width 1s ease-in-out' }} />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <p style={{ margin:0, fontSize:'0.82rem', color:'var(--text-muted)', lineHeight:1.5 }}>{t.dashboard.initialLearningActive}</p>
+              )}
+            </div>
+
+            {/* WEATHER CONTEXT */}
+            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'var(--radius-card)', padding:'1rem 1.125rem', boxShadow:'var(--shadow-card)' }}>
+              <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.625rem' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"/></svg>
+                <span style={{ fontSize:'0.7rem', fontWeight:700, letterSpacing:'0.08em', color:'var(--text-muted)', textTransform:'uppercase' }}>Weather Context</span>
+              </div>
+              {decision?.weather?.rain_probability != null ? (
+                <div>
+                  <div style={{ display:'flex', alignItems:'center', gap:'0.625rem', marginBottom:'0.375rem' }}>
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg>
+                    <div>
+                      <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--text-primary)', lineHeight:1 }}>
+                        {Math.round(decision.weather.rain_probability)}<span style={{ fontSize:'0.8rem', color:'var(--text-muted)', fontWeight:500 }}>%</span>
+                      </div>
+                      <span style={{ fontSize:'0.72rem', color:'var(--text-muted)' }}>{t.dashboard.rainProbability}</span>
+                    </div>
+                  </div>
+                  <p style={{ margin:0, fontSize:'0.78rem', color:'var(--text-secondary)', lineHeight:1.5 }}>
+                    {decision.weather.rain_probability > 60 ? t.dashboard.weatherHighRainDesc : t.dashboard.weatherLowRainDesc}
+                  </p>
+                </div>
+              ) : (
+                <p style={{ margin:0, fontSize:'0.82rem', color:'var(--text-muted)' }}>{t.dashboard.weatherUnavailable}</p>
+              )}
+            </div>
+
+            {/* ROOT-ZONE */}
+            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'var(--radius-card)', padding:'1rem 1.125rem', boxShadow:'var(--shadow-card)' }}>
+              <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.625rem' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#d97706" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22V12M9 6c0-1.7 1.3-3 3-3s3 1.3 3 3c0 2.2-3 6-3 6S9 8.2 9 6z"/></svg>
+                <span style={{ fontSize:'0.7rem', fontWeight:700, letterSpacing:'0.08em', color:'var(--text-muted)', textTransform:'uppercase' }}>Root-Zone Condition</span>
+              </div>
+              {decision?.root_zone ? (
+                <div>
+                  <div style={{ fontSize:'1rem', fontWeight:700, color: decision.root_zone.moisture_state === 'LOW' ? '#3b82f6' : decision.root_zone.moisture_state === 'HIGH' ? '#f97316' : 'var(--brand-primary)', marginBottom:'0.3rem' }}>
+                    {t.dashboard[`rootZone${decision.root_zone.moisture_state.charAt(0)+decision.root_zone.moisture_state.slice(1).toLowerCase()}` as keyof typeof t.dashboard] ?? decision.root_zone.moisture_state}
+                  </div>
+                  <p style={{ margin:'0 0 0.3rem', fontSize:'0.78rem', color:'var(--text-secondary)', lineHeight:1.5 }}>
+                    {decision.root_zone.moisture_state === 'LOW' ? t.dashboard.rootZoneLowDesc : decision.root_zone.moisture_state === 'HIGH' ? t.dashboard.rootZoneHighDesc : t.dashboard.rootZoneNormalDesc}
+                  </p>
+                  <span style={{ fontSize:'0.68rem', color:'var(--text-faint)' }}>{t.dashboard.aiEstimated} Â· {Math.round(decision.root_zone.confidence * 100)}%</span>
+                </div>
+              ) : (
+                <p style={{ margin:0, fontSize:'0.82rem', color:'var(--text-muted)' }}>{t.dashboard.waitingRootZone}</p>
+              )}
+            </div>
+
+            {/* FIELD EVENTS */}
+            <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'var(--radius-card)', padding:'1rem 1.125rem', boxShadow:'var(--shadow-card)' }}>
+              <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', marginBottom:'0.75rem' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                <span style={{ fontSize:'0.7rem', fontWeight:700, letterSpacing:'0.08em', color:'var(--text-muted)', textTransform:'uppercase' }}>Field Events</span>
+              </div>
+              {events.length === 0 ? (
+                <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', color:'var(--text-muted)' }}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  <p style={{ margin:0, fontSize:'0.82rem' }}>{t.dashboard.noUnusualEvents}</p>
+                </div>
+              ) : (
+                <div style={{ display:'flex', flexDirection:'column', gap:'0.5rem' }}>
+                  {events.slice(0, 4).map((ev) => {
+                    const statusColor: Record<string,string> = { NEW:'#f97316', ONGOING:'#f59e0b', PERSISTENT:'#ef4444', RESOLVED:'#22c55e' };
+                    const sc = statusColor[ev.status] ?? '#94a3b8';
+                    return (
+                      <div key={ev.id} style={{ display:'flex', gap:'0.5rem', alignItems:'flex-start' }}>
+                        <div style={{ width:7, height:7, borderRadius:'50%', background:sc, marginTop:'0.35rem', flexShrink:0 }} />
+                        <div style={{ flex:1 }}>
+                          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.1rem' }}>
+                            <span style={{ fontSize:'0.78rem', fontWeight:600, color:'var(--text-primary)' }}>{sensorLabel(ev.sensor)}</span>
+                            <span style={{ fontSize:'0.63rem', color:sc, fontWeight:700, padding:'0.1rem 0.3rem', borderRadius:'4px', background:`${sc}18` }}>{ev.status}</span>
+                          </div>
+                          <span style={{ fontSize:'0.7rem', color:'var(--text-muted)' }}>{ev.duration_minutes} {t.dashboard.durationMins} Â· {ev.severity}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
 
           </div>
         </div>
 
-        <div style={{ height:'5rem' }} />
-      </main>
+        <div style={{ height:'2rem' }} />
+      </div>{/* end background wrapper */}
 
-      {/* ══════════════════════════════ CHATBOT ══════════════════════════ */}
+      {/* Sensor details modal */}
+      {detailsOpen && (
+        <div style={{ position:'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,0.35)', backdropFilter:'blur(4px)', zIndex:100, display:'flex', alignItems:'center', justifyContent:'center', padding:'1rem' }}>
+          <div style={{ background:'var(--bg-card)', border:'1px solid var(--border-subtle)', borderRadius:'1rem', padding:'1.75rem', width:'100%', maxWidth:'460px', boxShadow:'var(--shadow-card-hover)' }}>
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'1rem' }}>
+              <h3 style={{ margin:0, fontSize:'1.05rem', fontWeight:700, color:'var(--text-primary)' }}>{t.dashboard.sensorDetailsTitle}</h3>
+              <button onClick={() => setDetailsOpen(false)} style={{ background:'transparent', border:'none', color:'var(--text-muted)', cursor:'pointer', fontSize:'1.5rem', lineHeight:1 }}>Ã—</button>
+            </div>
+            <p style={{ margin:'0 0 1.25rem', color:'var(--text-secondary)', fontSize:'0.875rem', lineHeight:1.6 }}>{t.dashboard.sensorDetailsDesc}</p>
+            <button onClick={() => setDetailsOpen(false)} style={{ background:'var(--brand-light)', color:'var(--brand-primary)', border:'1px solid var(--border-brand-subtle)', borderRadius:'0.625rem', padding:'0.625rem 1.25rem', width:'100%', fontWeight:600, cursor:'pointer', fontSize:'0.875rem' }}>{t.chat.close}</button>
+          </div>
+        </div>
+      )}
+
       <MarudamChat language={language} fieldContext={fieldContext} />
-    </div>
+    </AppShell>
   );
 }
